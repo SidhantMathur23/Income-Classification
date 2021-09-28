@@ -1,0 +1,825 @@
+2021-09-24 20:02:15,340 [INFO]  CategoricalEncoder for column country                                found only 93 occurrences of value El-Salvador
+2021-09-24 20:02:15,340 [INFO]  CategoricalEncoder for column country                                found only 91 occurrences of value India
+2021-09-24 20:02:15,340 [INFO]  CategoricalEncoder for column country                                found only 84 occurrences of value Cuba
+2021-09-24 20:02:15,340 [INFO]  CategoricalEncoder for column country                                found only 82 occurrences of value England
+2021-09-24 20:02:15,340 [INFO]  CategoricalEncoder for column country                                found only 74 occurrences of value Jamaica
+2021-09-24 20:02:15,341 [INFO]  CategoricalEncoder for column country                                found only 72 occurrences of value China
+2021-09-24 20:02:15,352 [INFO]  CategoricalEncoder for column country                                found only 71 occurrences of value South
+2021-09-24 20:02:15,353 [INFO]  CategoricalEncoder for column country                                found only 67 occurrences of value Italy
+2021-09-24 20:02:15,353 [INFO]  CategoricalEncoder for column country                                found only 62 occurrences of value Vietnam
+2021-09-24 20:02:15,353 [INFO]  CategoricalEncoder for column country                                found only 61 occurrences of value Dominican-Republic
+2021-09-24 20:02:15,354 [INFO]  CategoricalEncoder for column country                                found only 58 occurrences of value Guatemala
+2021-09-24 20:02:15,354 [INFO]  CategoricalEncoder for column country                                found only 57 occurrences of value Japan
+2021-09-24 20:02:15,354 [INFO]  CategoricalEncoder for column country                                found only 55 occurrences of value Columbia
+2021-09-24 20:02:15,354 [INFO]  CategoricalEncoder for column country                                found only 52 occurrences of value Poland
+2021-09-24 20:02:15,354 [INFO]  CategoricalEncoder for column country                                found only 48 occurrences of value Taiwan
+2021-09-24 20:02:15,354 [INFO]  CategoricalEncoder for column country                                found only 38 occurrences of value Haiti
+2021-09-24 20:02:15,355 [INFO]  CategoricalEncoder for column country                                found only 37 occurrences of value Iran
+2021-09-24 20:02:15,355 [INFO]  CategoricalEncoder for column country                                found only 34 occurrences of value Portugal
+2021-09-24 20:02:15,355 [INFO]  CategoricalEncoder for column country                                found only 31 occurrences of value Nicaragua
+2021-09-24 20:02:15,355 [INFO]  CategoricalEncoder for column country                                found only 27 occurrences of value Peru
+2021-09-24 20:02:15,355 [INFO]  CategoricalEncoder for column country                                found only 27 occurrences of value Greece
+2021-09-24 20:02:15,355 [INFO]  CategoricalEncoder for column country                                found only 27 occurrences of value Ecuador
+2021-09-24 20:02:15,355 [INFO]  CategoricalEncoder for column country                                found only 25 occurrences of value France
+2021-09-24 20:02:15,355 [INFO]  CategoricalEncoder for column country                                found only 22 occurrences of value Ireland
+2021-09-24 20:02:15,355 [INFO]  CategoricalEncoder for column country                                found only 17 occurrences of value Cambodia
+2021-09-24 20:02:15,355 [INFO]  CategoricalEncoder for column country                                found only 17 occurrences of value Hong
+2021-09-24 20:02:15,355 [INFO]  CategoricalEncoder for column country                                found only 17 occurrences of value Thailand
+2021-09-24 20:02:15,355 [INFO]  CategoricalEncoder for column country                                found only 17 occurrences of value Laos
+2021-09-24 20:02:15,356 [INFO]  CategoricalEncoder for column country                                found only 15 occurrences of value Trinadad&Tobago
+2021-09-24 20:02:15,356 [INFO]  CategoricalEncoder for column country                                found only 14 occurrences of value Yugoslavia
+2021-09-24 20:02:15,356 [INFO]  CategoricalEncoder for column country                                found only 14 occurrences of value Outlying-US(Guam-USVI-etc)
+2021-09-24 20:02:15,356 [INFO]  CategoricalEncoder for column country                                found only 12 occurrences of value Honduras
+2021-09-24 20:02:15,356 [INFO]  CategoricalEncoder for column country                                found only 12 occurrences of value Hungary
+2021-09-24 20:02:15,356 [INFO]  CategoricalEncoder for column country                                found only 9 occurrences of value Scotland
+2021-09-24 20:02:15,356 [INFO]  CategoricalEncoder for column country                                found only 1 occurrences of value Holand-Netherlands
+2021-09-24 20:02:29,923 [WARNING]  Test set does not contain any ocurrences of values [Holand-Netherlands, Outlying-US(Guam-USVI-etc)] in column [country], consider using a more representative test set.
+2021-09-24 20:02:29,923 [INFO]  
+========== start: fit model
+2021-09-24 20:02:29,923 [WARNING]  Already bound, ignoring bind()
+2021-09-24 20:02:56,179 [INFO]  Epoch[0] Batch [0-900]	Speed: 549.43 samples/sec	cross-entropy=0.413190	country-accuracy=0.923349
+2021-09-24 20:03:22,173 [INFO]  Epoch[0] Train-cross-entropy=0.305010
+2021-09-24 20:03:22,173 [INFO]  Epoch[0] Train-country-accuracy=0.935417
+2021-09-24 20:03:22,173 [INFO]  Epoch[0] Time cost=52.250
+2021-09-24 20:03:22,189 [INFO]  Saved checkpoint to "country\model-0000.params"
+2021-09-24 20:03:24,079 [INFO]  Epoch[0] Validation-cross-entropy=0.161220
+2021-09-24 20:03:24,079 [INFO]  Epoch[0] Validation-country-accuracy=0.954063
+2021-09-24 20:03:51,011 [INFO]  Epoch[1] Batch [0-900]	Speed: 535.30 samples/sec	cross-entropy=0.108132	country-accuracy=0.975097
+2021-09-24 20:04:17,905 [INFO]  Epoch[1] Train-cross-entropy=0.092551
+2021-09-24 20:04:17,905 [INFO]  Epoch[1] Train-country-accuracy=0.981042
+2021-09-24 20:04:17,905 [INFO]  Epoch[1] Time cost=53.826
+2021-09-24 20:04:17,925 [INFO]  Saved checkpoint to "country\model-0001.params"
+2021-09-24 20:04:19,494 [INFO]  Epoch[1] Validation-cross-entropy=0.085763
+2021-09-24 20:04:19,494 [INFO]  Epoch[1] Validation-country-accuracy=0.985313
+2021-09-24 20:04:46,479 [INFO]  Epoch[2] Batch [0-900]	Speed: 534.61 samples/sec	cross-entropy=0.050534	country-accuracy=0.995283
+2021-09-24 20:05:17,098 [INFO]  Epoch[2] Train-cross-entropy=0.044691
+2021-09-24 20:05:17,098 [INFO]  Epoch[2] Train-country-accuracy=0.995868
+2021-09-24 20:05:17,098 [INFO]  Epoch[2] Time cost=57.604
+2021-09-24 20:05:17,113 [INFO]  Saved checkpoint to "country\model-0002.params"
+2021-09-24 20:05:19,861 [INFO]  Epoch[2] Validation-cross-entropy=0.056256
+2021-09-24 20:05:19,861 [INFO]  Epoch[2] Validation-country-accuracy=0.991563
+2021-09-24 20:05:47,488 [INFO]  Epoch[3] Batch [0-900]	Speed: 521.79 samples/sec	cross-entropy=0.027317	country-accuracy=0.998266
+2021-09-24 20:06:19,632 [INFO]  Epoch[3] Train-cross-entropy=0.024501
+2021-09-24 20:06:19,632 [INFO]  Epoch[3] Train-country-accuracy=0.998299
+2021-09-24 20:06:19,632 [INFO]  Epoch[3] Time cost=59.770
+2021-09-24 20:06:19,650 [INFO]  Saved checkpoint to "country\model-0003.params"
+2021-09-24 20:06:22,173 [INFO]  Epoch[3] Validation-cross-entropy=0.040967
+2021-09-24 20:06:22,173 [INFO]  Epoch[3] Validation-country-accuracy=0.993437
+2021-09-24 20:06:50,112 [INFO]  Epoch[4] Batch [0-900]	Speed: 516.05 samples/sec	cross-entropy=0.015848	country-accuracy=0.999237
+2021-09-24 20:07:16,199 [INFO]  Epoch[4] Train-cross-entropy=0.014344
+2021-09-24 20:07:16,199 [INFO]  Epoch[4] Train-country-accuracy=0.999271
+2021-09-24 20:07:16,199 [INFO]  Epoch[4] Time cost=54.026
+2021-09-24 20:07:16,214 [INFO]  Saved checkpoint to "country\model-0004.params"
+2021-09-24 20:07:18,225 [INFO]  Epoch[4] Validation-cross-entropy=0.031870
+2021-09-24 20:07:18,225 [INFO]  Epoch[4] Validation-country-accuracy=0.995313
+2021-09-24 20:07:43,988 [INFO]  Epoch[5] Batch [0-900]	Speed: 559.55 samples/sec	cross-entropy=0.009498	country-accuracy=0.999792
+2021-09-24 20:08:09,771 [INFO]  Epoch[5] Train-cross-entropy=0.008686
+2021-09-24 20:08:09,771 [INFO]  Epoch[5] Train-country-accuracy=0.999722
+2021-09-24 20:08:09,771 [INFO]  Epoch[5] Time cost=51.546
+2021-09-24 20:08:09,787 [INFO]  Saved checkpoint to "country\model-0005.params"
+2021-09-24 20:08:11,888 [INFO]  Epoch[5] Validation-cross-entropy=0.026783
+2021-09-24 20:08:11,888 [INFO]  Epoch[5] Validation-country-accuracy=0.995938
+2021-09-24 20:08:39,407 [INFO]  Epoch[6] Batch [0-900]	Speed: 523.83 samples/sec	cross-entropy=0.005980	country-accuracy=0.999931
+2021-09-24 20:09:07,021 [INFO]  Epoch[6] Train-cross-entropy=0.005500
+2021-09-24 20:09:07,022 [INFO]  Epoch[6] Train-country-accuracy=0.999965
+2021-09-24 20:09:07,022 [INFO]  Epoch[6] Time cost=55.134
+2021-09-24 20:09:07,056 [INFO]  Saved checkpoint to "country\model-0006.params"
+2021-09-24 20:09:09,185 [INFO]  Epoch[6] Validation-cross-entropy=0.022724
+2021-09-24 20:09:09,185 [INFO]  Epoch[6] Validation-country-accuracy=0.996563
+2021-09-24 20:09:38,293 [INFO]  Epoch[7] Batch [0-900]	Speed: 495.34 samples/sec	cross-entropy=0.003927	country-accuracy=1.000000
+2021-09-24 20:10:06,067 [INFO]  Epoch[7] Train-cross-entropy=0.003585
+2021-09-24 20:10:06,067 [INFO]  Epoch[7] Train-country-accuracy=0.999965
+2021-09-24 20:10:06,067 [INFO]  Epoch[7] Time cost=56.882
+2021-09-24 20:10:06,084 [INFO]  Saved checkpoint to "country\model-0007.params"
+2021-09-24 20:10:08,258 [INFO]  Epoch[7] Validation-cross-entropy=0.020204
+2021-09-24 20:10:08,258 [INFO]  Epoch[7] Validation-country-accuracy=0.995938
+2021-09-24 20:10:37,378 [INFO]  Epoch[8] Batch [0-900]	Speed: 495.04 samples/sec	cross-entropy=0.002446	country-accuracy=1.000000
+2021-09-24 20:11:05,736 [INFO]  Epoch[8] Train-cross-entropy=0.002262
+2021-09-24 20:11:05,736 [INFO]  Epoch[8] Train-country-accuracy=1.000000
+2021-09-24 20:11:05,736 [INFO]  Epoch[8] Time cost=57.478
+2021-09-24 20:11:05,752 [INFO]  Saved checkpoint to "country\model-0008.params"
+2021-09-24 20:11:07,939 [INFO]  Epoch[8] Validation-cross-entropy=0.018838
+2021-09-24 20:11:07,939 [INFO]  Epoch[8] Validation-country-accuracy=0.996563
+2021-09-24 20:11:36,030 [INFO]  Epoch[9] Batch [0-900]	Speed: 513.21 samples/sec	cross-entropy=0.001625	country-accuracy=1.000000
+2021-09-24 20:12:04,279 [INFO]  Epoch[9] Train-cross-entropy=0.001522
+2021-09-24 20:12:04,279 [INFO]  Epoch[9] Train-country-accuracy=1.000000
+2021-09-24 20:12:04,279 [INFO]  Epoch[9] Time cost=56.340
+2021-09-24 20:12:04,297 [INFO]  Saved checkpoint to "country\model-0009.params"
+2021-09-24 20:12:06,561 [INFO]  Epoch[9] Validation-cross-entropy=0.017724
+2021-09-24 20:12:06,561 [INFO]  Epoch[9] Validation-country-accuracy=0.996250
+2021-09-24 20:12:34,361 [INFO]  Epoch[10] Batch [0-900]	Speed: 518.55 samples/sec	cross-entropy=0.001372	country-accuracy=0.999931
+2021-09-24 20:13:02,779 [INFO]  Epoch[10] Train-cross-entropy=0.001153
+2021-09-24 20:13:02,779 [INFO]  Epoch[10] Train-country-accuracy=0.999965
+2021-09-24 20:13:02,779 [INFO]  Epoch[10] Time cost=56.219
+2021-09-24 20:13:02,796 [INFO]  Saved checkpoint to "country\model-0010.params"
+2021-09-24 20:13:04,898 [INFO]  Epoch[10] Validation-cross-entropy=0.016100
+2021-09-24 20:13:04,898 [INFO]  Epoch[10] Validation-country-accuracy=0.997188
+2021-09-24 20:13:33,405 [INFO]  Epoch[11] Batch [0-900]	Speed: 505.71 samples/sec	cross-entropy=0.000847	country-accuracy=0.999931
+2021-09-24 20:14:00,204 [INFO]  Epoch[11] Train-cross-entropy=0.000854
+2021-09-24 20:14:00,205 [INFO]  Epoch[11] Train-country-accuracy=0.999931
+2021-09-24 20:14:00,205 [INFO]  Epoch[11] Time cost=55.307
+2021-09-24 20:14:00,221 [INFO]  Saved checkpoint to "country\model-0011.params"
+2021-09-24 20:14:02,425 [INFO]  Epoch[11] Validation-cross-entropy=0.014613
+2021-09-24 20:14:02,426 [INFO]  Epoch[11] Validation-country-accuracy=0.997188
+2021-09-24 20:14:31,840 [INFO]  Epoch[12] Batch [0-900]	Speed: 490.10 samples/sec	cross-entropy=0.000662	country-accuracy=0.999931
+2021-09-24 20:14:59,639 [INFO]  Epoch[12] Train-cross-entropy=0.000533
+2021-09-24 20:14:59,639 [INFO]  Epoch[12] Train-country-accuracy=0.999965
+2021-09-24 20:14:59,639 [INFO]  Epoch[12] Time cost=57.213
+2021-09-24 20:14:59,654 [INFO]  Saved checkpoint to "country\model-0012.params"
+2021-09-24 20:15:01,798 [INFO]  Epoch[12] Validation-cross-entropy=0.013857
+2021-09-24 20:15:01,798 [INFO]  Epoch[12] Validation-country-accuracy=0.997188
+2021-09-24 20:15:29,883 [INFO]  Epoch[13] Batch [0-900]	Speed: 513.24 samples/sec	cross-entropy=0.000337	country-accuracy=1.000000
+2021-09-24 20:15:55,827 [INFO]  Epoch[13] Train-cross-entropy=0.000296
+2021-09-24 20:15:55,827 [INFO]  Epoch[13] Train-country-accuracy=1.000000
+2021-09-24 20:15:55,827 [INFO]  Epoch[13] Time cost=54.029
+2021-09-24 20:15:55,843 [INFO]  Saved checkpoint to "country\model-0013.params"
+2021-09-24 20:15:57,769 [INFO]  Epoch[13] Validation-cross-entropy=0.013518
+2021-09-24 20:15:57,769 [INFO]  Epoch[13] Validation-country-accuracy=0.997500
+2021-09-24 20:16:25,128 [INFO]  Epoch[14] Batch [0-900]	Speed: 526.86 samples/sec	cross-entropy=0.000252	country-accuracy=1.000000
+2021-09-24 20:16:51,975 [INFO]  Epoch[14] Train-cross-entropy=0.000214
+2021-09-24 20:16:51,975 [INFO]  Epoch[14] Train-country-accuracy=1.000000
+2021-09-24 20:16:51,975 [INFO]  Epoch[14] Time cost=54.206
+2021-09-24 20:16:51,991 [INFO]  Saved checkpoint to "country\model-0014.params"
+2021-09-24 20:16:54,126 [INFO]  Epoch[14] Validation-cross-entropy=0.012407
+2021-09-24 20:16:54,126 [INFO]  Epoch[14] Validation-country-accuracy=0.997812
+2021-09-24 20:17:22,261 [INFO]  Epoch[15] Batch [0-900]	Speed: 512.39 samples/sec	cross-entropy=0.000145	country-accuracy=1.000000
+2021-09-24 20:17:48,662 [INFO]  Epoch[15] Train-cross-entropy=0.000138
+2021-09-24 20:17:48,662 [INFO]  Epoch[15] Train-country-accuracy=1.000000
+2021-09-24 20:17:48,662 [INFO]  Epoch[15] Time cost=54.536
+2021-09-24 20:17:48,679 [INFO]  Saved checkpoint to "country\model-0015.params"
+2021-09-24 20:17:50,862 [INFO]  Epoch[15] Validation-cross-entropy=0.012101
+2021-09-24 20:17:50,863 [INFO]  Epoch[15] Validation-country-accuracy=0.997812
+2021-09-24 20:18:18,650 [INFO]  Epoch[16] Batch [0-900]	Speed: 518.81 samples/sec	cross-entropy=0.000099	country-accuracy=1.000000
+2021-09-24 20:18:46,776 [INFO]  Epoch[16] Train-cross-entropy=0.000097
+2021-09-24 20:18:46,777 [INFO]  Epoch[16] Train-country-accuracy=1.000000
+2021-09-24 20:18:46,777 [INFO]  Epoch[16] Time cost=55.914
+2021-09-24 20:18:46,794 [INFO]  Saved checkpoint to "country\model-0016.params"
+2021-09-24 20:18:49,015 [INFO]  Epoch[16] Validation-cross-entropy=0.012761
+2021-09-24 20:18:49,015 [INFO]  Epoch[16] Validation-country-accuracy=0.997812
+2021-09-24 20:19:17,464 [INFO]  Epoch[17] Batch [0-900]	Speed: 506.68 samples/sec	cross-entropy=0.000071	country-accuracy=1.000000
+2021-09-24 20:19:46,283 [INFO]  Epoch[17] Train-cross-entropy=0.000067
+2021-09-24 20:19:46,283 [INFO]  Epoch[17] Train-country-accuracy=1.000000
+2021-09-24 20:19:46,283 [INFO]  Epoch[17] Time cost=57.268
+2021-09-24 20:19:46,302 [INFO]  Saved checkpoint to "country\model-0017.params"
+2021-09-24 20:19:48,422 [INFO]  Epoch[17] Validation-cross-entropy=0.011736
+2021-09-24 20:19:48,422 [INFO]  Epoch[17] Validation-country-accuracy=0.997500
+2021-09-24 20:20:17,498 [INFO]  Epoch[18] Batch [0-900]	Speed: 495.75 samples/sec	cross-entropy=0.000052	country-accuracy=1.000000
+2021-09-24 20:20:45,598 [INFO]  Epoch[18] Train-cross-entropy=0.000049
+2021-09-24 20:20:45,598 [INFO]  Epoch[18] Train-country-accuracy=1.000000
+2021-09-24 20:20:45,598 [INFO]  Epoch[18] Time cost=57.176
+2021-09-24 20:20:45,616 [INFO]  Saved checkpoint to "country\model-0018.params"
+2021-09-24 20:20:47,790 [INFO]  Epoch[18] Validation-cross-entropy=0.011289
+2021-09-24 20:20:47,790 [INFO]  Epoch[18] Validation-country-accuracy=0.998125
+2021-09-24 20:21:15,977 [INFO]  Epoch[19] Batch [0-900]	Speed: 511.54 samples/sec	cross-entropy=0.000095	country-accuracy=1.000000
+2021-09-24 20:21:43,283 [INFO]  Epoch[19] Train-cross-entropy=0.000066
+2021-09-24 20:21:43,283 [INFO]  Epoch[19] Train-country-accuracy=1.000000
+2021-09-24 20:21:43,283 [INFO]  Epoch[19] Time cost=55.494
+2021-09-24 20:21:43,301 [INFO]  Saved checkpoint to "country\model-0019.params"
+2021-09-24 20:21:45,414 [INFO]  Epoch[19] Validation-cross-entropy=0.011330
+2021-09-24 20:21:45,414 [INFO]  Epoch[19] Validation-country-accuracy=0.998437
+2021-09-24 20:22:13,588 [INFO]  Epoch[20] Batch [0-900]	Speed: 511.67 samples/sec	cross-entropy=0.000039	country-accuracy=1.000000
+2021-09-24 20:22:41,593 [INFO]  Epoch[20] Train-cross-entropy=0.000052
+2021-09-24 20:22:41,593 [INFO]  Epoch[20] Train-country-accuracy=1.000000
+2021-09-24 20:22:41,593 [INFO]  Epoch[20] Time cost=56.178
+2021-09-24 20:22:41,610 [INFO]  Saved checkpoint to "country\model-0020.params"
+2021-09-24 20:22:43,761 [INFO]  Epoch[20] Validation-cross-entropy=0.012326
+2021-09-24 20:22:43,761 [INFO]  Epoch[20] Validation-country-accuracy=0.997812
+2021-09-24 20:23:11,568 [INFO]  Epoch[21] Batch [0-900]	Speed: 518.41 samples/sec	cross-entropy=0.000029	country-accuracy=1.000000
+2021-09-24 20:23:39,492 [INFO]  Epoch[21] Train-cross-entropy=0.000025
+2021-09-24 20:23:39,492 [INFO]  Epoch[21] Train-country-accuracy=1.000000
+2021-09-24 20:23:39,492 [INFO]  Epoch[21] Time cost=55.731
+2021-09-24 20:23:39,508 [INFO]  Saved checkpoint to "country\model-0021.params"
+2021-09-24 20:23:41,723 [INFO]  Epoch[21] Validation-cross-entropy=0.011782
+2021-09-24 20:23:41,724 [INFO]  Epoch[21] Validation-country-accuracy=0.998437
+2021-09-24 20:24:09,349 [INFO]  Epoch[22] Batch [0-900]	Speed: 521.88 samples/sec	cross-entropy=0.000017	country-accuracy=1.000000
+2021-09-24 20:24:37,024 [INFO]  Epoch[22] Train-cross-entropy=0.000017
+2021-09-24 20:24:37,024 [INFO]  Epoch[22] Train-country-accuracy=1.000000
+2021-09-24 20:24:37,024 [INFO]  Epoch[22] Time cost=55.300
+2021-09-24 20:24:37,041 [INFO]  Saved checkpoint to "country\model-0022.params"
+2021-09-24 20:24:39,505 [INFO]  Epoch[22] Validation-cross-entropy=0.010417
+2021-09-24 20:24:39,506 [INFO]  Epoch[22] Validation-country-accuracy=0.998125
+2021-09-24 20:25:08,336 [INFO]  Epoch[23] Batch [0-900]	Speed: 500.04 samples/sec	cross-entropy=0.000013	country-accuracy=1.000000
+2021-09-24 20:25:36,202 [INFO]  Epoch[23] Train-cross-entropy=0.000013
+2021-09-24 20:25:36,203 [INFO]  Epoch[23] Train-country-accuracy=1.000000
+2021-09-24 20:25:36,203 [INFO]  Epoch[23] Time cost=56.697
+2021-09-24 20:25:36,219 [INFO]  Saved checkpoint to "country\model-0023.params"
+2021-09-24 20:25:38,378 [INFO]  Epoch[23] Validation-cross-entropy=0.010626
+2021-09-24 20:25:38,379 [INFO]  Epoch[23] Validation-country-accuracy=0.998437
+2021-09-24 20:26:05,732 [INFO]  Epoch[24] Batch [0-900]	Speed: 527.04 samples/sec	cross-entropy=0.000013	country-accuracy=1.000000
+2021-09-24 20:26:33,305 [INFO]  Epoch[24] Train-cross-entropy=0.000182
+2021-09-24 20:26:33,305 [INFO]  Epoch[24] Train-country-accuracy=0.999965
+2021-09-24 20:26:33,305 [INFO]  Epoch[24] Time cost=54.926
+2021-09-24 20:26:33,322 [INFO]  Saved checkpoint to "country\model-0024.params"
+2021-09-24 20:26:35,498 [INFO]  Epoch[24] Validation-cross-entropy=0.011507
+2021-09-24 20:26:35,498 [INFO]  Epoch[24] Validation-country-accuracy=0.997188
+2021-09-24 20:27:03,458 [INFO]  Epoch[25] Batch [0-900]	Speed: 515.56 samples/sec	cross-entropy=0.000057	country-accuracy=1.000000
+2021-09-24 20:27:32,013 [INFO]  Epoch[25] Train-cross-entropy=0.000035
+2021-09-24 20:27:32,014 [INFO]  Epoch[25] Train-country-accuracy=1.000000
+2021-09-24 20:27:32,014 [INFO]  Epoch[25] Time cost=56.516
+2021-09-24 20:27:32,031 [INFO]  Saved checkpoint to "country\model-0025.params"
+2021-09-24 20:27:34,168 [INFO]  Epoch[25] Validation-cross-entropy=0.012025
+2021-09-24 20:27:34,168 [INFO]  Epoch[25] Validation-country-accuracy=0.997812
+2021-09-24 20:28:02,271 [INFO]  Epoch[26] Batch [0-900]	Speed: 513.02 samples/sec	cross-entropy=0.000107	country-accuracy=0.999931
+2021-09-24 20:28:30,140 [INFO]  Epoch[26] Train-cross-entropy=0.000059
+2021-09-24 20:28:30,140 [INFO]  Epoch[26] Train-country-accuracy=0.999965
+2021-09-24 20:28:30,140 [INFO]  Epoch[26] Time cost=55.971
+2021-09-24 20:28:30,159 [INFO]  Saved checkpoint to "country\model-0026.params"
+2021-09-24 20:28:32,304 [INFO]  Epoch[26] Validation-cross-entropy=0.013538
+2021-09-24 20:28:32,304 [INFO]  Epoch[26] Validation-country-accuracy=0.997812
+2021-09-24 20:29:00,133 [INFO]  Epoch[27] Batch [0-900]	Speed: 517.98 samples/sec	cross-entropy=0.000249	country-accuracy=0.999861
+2021-09-24 20:29:28,306 [INFO]  Epoch[27] Train-cross-entropy=0.000128
+2021-09-24 20:29:28,306 [INFO]  Epoch[27] Train-country-accuracy=0.999931
+2021-09-24 20:29:28,306 [INFO]  Epoch[27] Time cost=56.003
+2021-09-24 20:29:28,323 [INFO]  Saved checkpoint to "country\model-0027.params"
+2021-09-24 20:29:30,447 [INFO]  No improvement detected for 5 epochs compared to 0.010416545553331536 last error obtained: 0.012078947410953443, stopping here
+2021-09-24 20:29:30,447 [INFO]  
+========== done (1620.5237352848053 s) fit model
+2021-09-25 10:19:25,878 [INFO]  CategoricalEncoder for column country                                found only 93 occurrences of value El-Salvador
+2021-09-25 10:19:25,878 [INFO]  CategoricalEncoder for column country                                found only 91 occurrences of value India
+2021-09-25 10:19:25,878 [INFO]  CategoricalEncoder for column country                                found only 84 occurrences of value Cuba
+2021-09-25 10:19:25,878 [INFO]  CategoricalEncoder for column country                                found only 82 occurrences of value England
+2021-09-25 10:19:25,878 [INFO]  CategoricalEncoder for column country                                found only 74 occurrences of value Jamaica
+2021-09-25 10:19:25,879 [INFO]  CategoricalEncoder for column country                                found only 72 occurrences of value China
+2021-09-25 10:19:25,879 [INFO]  CategoricalEncoder for column country                                found only 71 occurrences of value South
+2021-09-25 10:19:25,879 [INFO]  CategoricalEncoder for column country                                found only 67 occurrences of value Italy
+2021-09-25 10:19:25,879 [INFO]  CategoricalEncoder for column country                                found only 62 occurrences of value Vietnam
+2021-09-25 10:19:25,879 [INFO]  CategoricalEncoder for column country                                found only 61 occurrences of value Dominican-Republic
+2021-09-25 10:19:25,879 [INFO]  CategoricalEncoder for column country                                found only 58 occurrences of value Guatemala
+2021-09-25 10:19:25,880 [INFO]  CategoricalEncoder for column country                                found only 57 occurrences of value Japan
+2021-09-25 10:19:25,880 [INFO]  CategoricalEncoder for column country                                found only 55 occurrences of value Columbia
+2021-09-25 10:19:25,880 [INFO]  CategoricalEncoder for column country                                found only 52 occurrences of value Poland
+2021-09-25 10:19:25,880 [INFO]  CategoricalEncoder for column country                                found only 48 occurrences of value Taiwan
+2021-09-25 10:19:25,880 [INFO]  CategoricalEncoder for column country                                found only 38 occurrences of value Haiti
+2021-09-25 10:19:25,880 [INFO]  CategoricalEncoder for column country                                found only 37 occurrences of value Iran
+2021-09-25 10:19:25,880 [INFO]  CategoricalEncoder for column country                                found only 34 occurrences of value Portugal
+2021-09-25 10:19:25,881 [INFO]  CategoricalEncoder for column country                                found only 31 occurrences of value Nicaragua
+2021-09-25 10:19:25,881 [INFO]  CategoricalEncoder for column country                                found only 27 occurrences of value Greece
+2021-09-25 10:19:25,881 [INFO]  CategoricalEncoder for column country                                found only 27 occurrences of value Ecuador
+2021-09-25 10:19:25,881 [INFO]  CategoricalEncoder for column country                                found only 27 occurrences of value Peru
+2021-09-25 10:19:25,881 [INFO]  CategoricalEncoder for column country                                found only 25 occurrences of value France
+2021-09-25 10:19:25,882 [INFO]  CategoricalEncoder for column country                                found only 22 occurrences of value Ireland
+2021-09-25 10:19:25,882 [INFO]  CategoricalEncoder for column country                                found only 17 occurrences of value Thailand
+2021-09-25 10:19:25,882 [INFO]  CategoricalEncoder for column country                                found only 17 occurrences of value Cambodia
+2021-09-25 10:19:25,882 [INFO]  CategoricalEncoder for column country                                found only 17 occurrences of value Hong
+2021-09-25 10:19:25,882 [INFO]  CategoricalEncoder for column country                                found only 17 occurrences of value Laos
+2021-09-25 10:19:25,882 [INFO]  CategoricalEncoder for column country                                found only 15 occurrences of value Trinadad&Tobago
+2021-09-25 10:19:25,882 [INFO]  CategoricalEncoder for column country                                found only 14 occurrences of value Outlying-US(Guam-USVI-etc)
+2021-09-25 10:19:25,883 [INFO]  CategoricalEncoder for column country                                found only 14 occurrences of value Yugoslavia
+2021-09-25 10:19:25,883 [INFO]  CategoricalEncoder for column country                                found only 12 occurrences of value Hungary
+2021-09-25 10:19:25,883 [INFO]  CategoricalEncoder for column country                                found only 12 occurrences of value Honduras
+2021-09-25 10:19:25,883 [INFO]  CategoricalEncoder for column country                                found only 9 occurrences of value Scotland
+2021-09-25 10:19:25,883 [INFO]  CategoricalEncoder for column country                                found only 1 occurrences of value Holand-Netherlands
+2021-09-25 10:19:42,104 [WARNING]  Test set does not contain any ocurrences of values [Holand-Netherlands, Outlying-US(Guam-USVI-etc)] in column [country], consider using a more representative test set.
+2021-09-25 10:19:42,109 [INFO]  
+========== start: fit model
+2021-09-25 10:19:42,109 [WARNING]  Already bound, ignoring bind()
+2021-09-25 10:20:09,017 [INFO]  Epoch[0] Batch [0-900]	Speed: 536.17 samples/sec	cross-entropy=0.401065	country-accuracy=0.924251
+2021-09-25 10:20:35,353 [INFO]  Epoch[0] Train-cross-entropy=0.289579
+2021-09-25 10:20:35,353 [INFO]  Epoch[0] Train-country-accuracy=0.938542
+2021-09-25 10:20:35,353 [INFO]  Epoch[0] Time cost=53.242
+2021-09-25 10:20:35,369 [INFO]  Saved checkpoint to "country\model-0000.params"
+2021-09-25 10:20:37,587 [INFO]  Epoch[0] Validation-cross-entropy=0.142233
+2021-09-25 10:20:37,587 [INFO]  Epoch[0] Validation-country-accuracy=0.960625
+2021-09-25 10:21:04,700 [INFO]  Epoch[1] Batch [0-900]	Speed: 531.41 samples/sec	cross-entropy=0.092188	country-accuracy=0.981271
+2021-09-25 10:21:31,402 [INFO]  Epoch[1] Train-cross-entropy=0.077483
+2021-09-25 10:21:31,402 [INFO]  Epoch[1] Train-country-accuracy=0.986042
+2021-09-25 10:21:31,402 [INFO]  Epoch[1] Time cost=53.815
+2021-09-25 10:21:31,417 [INFO]  Saved checkpoint to "country\model-0001.params"
+2021-09-25 10:21:33,776 [INFO]  Epoch[1] Validation-cross-entropy=0.069849
+2021-09-25 10:21:33,776 [INFO]  Epoch[1] Validation-country-accuracy=0.989375
+2021-09-25 10:22:00,643 [INFO]  Epoch[2] Batch [0-900]	Speed: 536.28 samples/sec	cross-entropy=0.038824	country-accuracy=0.997642
+2021-09-25 10:22:27,358 [INFO]  Epoch[2] Train-cross-entropy=0.033902
+2021-09-25 10:22:27,358 [INFO]  Epoch[2] Train-country-accuracy=0.997743
+2021-09-25 10:22:27,358 [INFO]  Epoch[2] Time cost=53.582
+2021-09-25 10:22:27,373 [INFO]  Saved checkpoint to "country\model-0002.params"
+2021-09-25 10:22:29,467 [INFO]  Epoch[2] Validation-cross-entropy=0.043207
+2021-09-25 10:22:29,467 [INFO]  Epoch[2] Validation-country-accuracy=0.994375
+2021-09-25 10:22:56,417 [INFO]  Epoch[3] Batch [0-900]	Speed: 534.63 samples/sec	cross-entropy=0.019045	country-accuracy=0.999445
+2021-09-25 10:23:23,094 [INFO]  Epoch[3] Train-cross-entropy=0.016958
+2021-09-25 10:23:23,094 [INFO]  Epoch[3] Train-country-accuracy=0.999375
+2021-09-25 10:23:23,094 [INFO]  Epoch[3] Time cost=53.627
+2021-09-25 10:23:23,106 [INFO]  Saved checkpoint to "country\model-0003.params"
+2021-09-25 10:23:25,285 [INFO]  Epoch[3] Validation-cross-entropy=0.030532
+2021-09-25 10:23:25,285 [INFO]  Epoch[3] Validation-country-accuracy=0.996563
+2021-09-25 10:23:52,427 [INFO]  Epoch[4] Batch [0-900]	Speed: 531.01 samples/sec	cross-entropy=0.010256	country-accuracy=0.999792
+2021-09-25 10:24:18,954 [INFO]  Epoch[4] Train-cross-entropy=0.009253
+2021-09-25 10:24:18,954 [INFO]  Epoch[4] Train-country-accuracy=0.999757
+2021-09-25 10:24:18,955 [INFO]  Epoch[4] Time cost=53.670
+2021-09-25 10:24:18,972 [INFO]  Saved checkpoint to "country\model-0004.params"
+2021-09-25 10:24:20,927 [INFO]  Epoch[4] Validation-cross-entropy=0.022471
+2021-09-25 10:24:20,927 [INFO]  Epoch[4] Validation-country-accuracy=0.997188
+2021-09-25 10:24:47,976 [INFO]  Epoch[5] Batch [0-900]	Speed: 532.84 samples/sec	cross-entropy=0.005905	country-accuracy=0.999861
+2021-09-25 10:25:15,311 [INFO]  Epoch[5] Train-cross-entropy=0.005336
+2021-09-25 10:25:15,311 [INFO]  Epoch[5] Train-country-accuracy=0.999931
+2021-09-25 10:25:15,311 [INFO]  Epoch[5] Time cost=54.383
+2021-09-25 10:25:15,324 [INFO]  Saved checkpoint to "country\model-0005.params"
+2021-09-25 10:25:17,207 [INFO]  Epoch[5] Validation-cross-entropy=0.019021
+2021-09-25 10:25:17,208 [INFO]  Epoch[5] Validation-country-accuracy=0.997188
+2021-09-25 10:25:43,902 [INFO]  Epoch[6] Batch [0-900]	Speed: 540.40 samples/sec	cross-entropy=0.003498	country-accuracy=1.000000
+2021-09-25 10:26:10,860 [INFO]  Epoch[6] Train-cross-entropy=0.003186
+2021-09-25 10:26:10,861 [INFO]  Epoch[6] Train-country-accuracy=1.000000
+2021-09-25 10:26:10,861 [INFO]  Epoch[6] Time cost=53.653
+2021-09-25 10:26:10,874 [INFO]  Saved checkpoint to "country\model-0006.params"
+2021-09-25 10:26:13,113 [INFO]  Epoch[6] Validation-cross-entropy=0.014900
+2021-09-25 10:26:13,113 [INFO]  Epoch[6] Validation-country-accuracy=0.997500
+2021-09-25 10:26:39,530 [INFO]  Epoch[7] Batch [0-900]	Speed: 545.55 samples/sec	cross-entropy=0.002119	country-accuracy=1.000000
+2021-09-25 10:27:06,210 [INFO]  Epoch[7] Train-cross-entropy=0.001917
+2021-09-25 10:27:06,210 [INFO]  Epoch[7] Train-country-accuracy=1.000000
+2021-09-25 10:27:06,210 [INFO]  Epoch[7] Time cost=53.097
+2021-09-25 10:27:06,223 [INFO]  Saved checkpoint to "country\model-0007.params"
+2021-09-25 10:27:08,402 [INFO]  Epoch[7] Validation-cross-entropy=0.013865
+2021-09-25 10:27:08,402 [INFO]  Epoch[7] Validation-country-accuracy=0.997500
+2021-09-25 10:27:35,518 [INFO]  Epoch[8] Batch [0-900]	Speed: 531.45 samples/sec	cross-entropy=0.001392	country-accuracy=1.000000
+2021-09-25 10:28:02,069 [INFO]  Epoch[8] Train-cross-entropy=0.001233
+2021-09-25 10:28:02,069 [INFO]  Epoch[8] Train-country-accuracy=1.000000
+2021-09-25 10:28:02,069 [INFO]  Epoch[8] Time cost=53.667
+2021-09-25 10:28:02,087 [INFO]  Saved checkpoint to "country\model-0008.params"
+2021-09-25 10:28:03,915 [INFO]  Epoch[8] Validation-cross-entropy=0.012156
+2021-09-25 10:28:03,915 [INFO]  Epoch[8] Validation-country-accuracy=0.997812
+2021-09-25 10:28:31,327 [INFO]  Epoch[9] Batch [0-900]	Speed: 525.78 samples/sec	cross-entropy=0.000832	country-accuracy=1.000000
+2021-09-25 10:28:58,352 [INFO]  Epoch[9] Train-cross-entropy=0.000771
+2021-09-25 10:28:58,352 [INFO]  Epoch[9] Train-country-accuracy=1.000000
+2021-09-25 10:28:58,352 [INFO]  Epoch[9] Time cost=54.438
+2021-09-25 10:28:58,368 [INFO]  Saved checkpoint to "country\model-0009.params"
+2021-09-25 10:29:00,321 [INFO]  Epoch[9] Validation-cross-entropy=0.011430
+2021-09-25 10:29:00,321 [INFO]  Epoch[9] Validation-country-accuracy=0.997500
+2021-09-25 10:29:27,361 [INFO]  Epoch[10] Batch [0-900]	Speed: 533.15 samples/sec	cross-entropy=0.000516	country-accuracy=1.000000
+2021-09-25 10:29:54,055 [INFO]  Epoch[10] Train-cross-entropy=0.000486
+2021-09-25 10:29:54,055 [INFO]  Epoch[10] Train-country-accuracy=1.000000
+2021-09-25 10:29:54,055 [INFO]  Epoch[10] Time cost=53.734
+2021-09-25 10:29:54,068 [INFO]  Saved checkpoint to "country\model-0010.params"
+2021-09-25 10:29:56,278 [INFO]  Epoch[10] Validation-cross-entropy=0.010802
+2021-09-25 10:29:56,278 [INFO]  Epoch[10] Validation-country-accuracy=0.997812
+2021-09-25 10:30:23,454 [INFO]  Epoch[11] Batch [0-900]	Speed: 530.28 samples/sec	cross-entropy=0.000337	country-accuracy=1.000000
+2021-09-25 10:30:50,254 [INFO]  Epoch[11] Train-cross-entropy=0.000346
+2021-09-25 10:30:50,254 [INFO]  Epoch[11] Train-country-accuracy=1.000000
+2021-09-25 10:30:50,254 [INFO]  Epoch[11] Time cost=53.976
+2021-09-25 10:30:50,271 [INFO]  Saved checkpoint to "country\model-0011.params"
+2021-09-25 10:30:51,988 [INFO]  Epoch[11] Validation-cross-entropy=0.007811
+2021-09-25 10:30:51,988 [INFO]  Epoch[11] Validation-country-accuracy=0.998125
+2021-09-25 10:31:20,640 [INFO]  Epoch[12] Batch [0-900]	Speed: 502.98 samples/sec	cross-entropy=0.000727	country-accuracy=0.999931
+2021-09-25 10:31:50,697 [INFO]  Epoch[12] Train-cross-entropy=0.000439
+2021-09-25 10:31:50,698 [INFO]  Epoch[12] Train-country-accuracy=0.999965
+2021-09-25 10:31:50,698 [INFO]  Epoch[12] Time cost=58.710
+2021-09-25 10:31:50,715 [INFO]  Saved checkpoint to "country\model-0012.params"
+2021-09-25 10:31:52,904 [INFO]  Epoch[12] Validation-cross-entropy=0.007209
+2021-09-25 10:31:52,904 [INFO]  Epoch[12] Validation-country-accuracy=0.998437
+2021-09-25 10:32:22,055 [INFO]  Epoch[13] Batch [0-900]	Speed: 494.38 samples/sec	cross-entropy=0.000114	country-accuracy=1.000000
+2021-09-25 10:32:51,010 [INFO]  Epoch[13] Train-cross-entropy=0.000105
+2021-09-25 10:32:51,010 [INFO]  Epoch[13] Train-country-accuracy=1.000000
+2021-09-25 10:32:51,010 [INFO]  Epoch[13] Time cost=58.106
+2021-09-25 10:32:51,024 [INFO]  Saved checkpoint to "country\model-0013.params"
+2021-09-25 10:32:53,477 [INFO]  Epoch[13] Validation-cross-entropy=0.007634
+2021-09-25 10:32:53,477 [INFO]  Epoch[13] Validation-country-accuracy=0.998437
+2021-09-25 10:33:26,239 [INFO]  Epoch[14] Batch [0-900]	Speed: 439.92 samples/sec	cross-entropy=0.000133	country-accuracy=0.999931
+2021-09-25 10:33:59,911 [INFO]  Epoch[14] Train-cross-entropy=0.000101
+2021-09-25 10:33:59,911 [INFO]  Epoch[14] Train-country-accuracy=0.999965
+2021-09-25 10:33:59,911 [INFO]  Epoch[14] Time cost=66.434
+2021-09-25 10:33:59,929 [INFO]  Saved checkpoint to "country\model-0014.params"
+2021-09-25 10:34:02,516 [INFO]  Epoch[14] Validation-cross-entropy=0.007367
+2021-09-25 10:34:02,516 [INFO]  Epoch[14] Validation-country-accuracy=0.998437
+2021-09-25 10:34:31,828 [INFO]  Epoch[15] Batch [0-900]	Speed: 491.70 samples/sec	cross-entropy=0.000057	country-accuracy=1.000000
+2021-09-25 10:35:05,195 [INFO]  Epoch[15] Train-cross-entropy=0.000055
+2021-09-25 10:35:05,195 [INFO]  Epoch[15] Train-country-accuracy=1.000000
+2021-09-25 10:35:05,196 [INFO]  Epoch[15] Time cost=62.680
+2021-09-25 10:35:05,215 [INFO]  Saved checkpoint to "country\model-0015.params"
+2021-09-25 10:35:07,318 [INFO]  Epoch[15] Validation-cross-entropy=0.006964
+2021-09-25 10:35:07,318 [INFO]  Epoch[15] Validation-country-accuracy=0.998750
+2021-09-25 10:35:36,768 [INFO]  Epoch[16] Batch [0-900]	Speed: 489.40 samples/sec	cross-entropy=0.000037	country-accuracy=1.000000
+2021-09-25 10:36:05,684 [INFO]  Epoch[16] Train-cross-entropy=0.000036
+2021-09-25 10:36:05,685 [INFO]  Epoch[16] Train-country-accuracy=1.000000
+2021-09-25 10:36:05,685 [INFO]  Epoch[16] Time cost=58.367
+2021-09-25 10:36:05,703 [INFO]  Saved checkpoint to "country\model-0016.params"
+2021-09-25 10:36:08,002 [INFO]  Epoch[16] Validation-cross-entropy=0.007462
+2021-09-25 10:36:08,002 [INFO]  Epoch[16] Validation-country-accuracy=0.998437
+2021-09-25 10:36:38,022 [INFO]  Epoch[17] Batch [0-900]	Speed: 480.08 samples/sec	cross-entropy=0.000026	country-accuracy=1.000000
+2021-09-25 10:37:12,939 [INFO]  Epoch[17] Train-cross-entropy=0.000026
+2021-09-25 10:37:12,940 [INFO]  Epoch[17] Train-country-accuracy=1.000000
+2021-09-25 10:37:12,940 [INFO]  Epoch[17] Time cost=64.938
+2021-09-25 10:37:12,958 [INFO]  Saved checkpoint to "country\model-0017.params"
+2021-09-25 10:37:15,286 [INFO]  Epoch[17] Validation-cross-entropy=0.006762
+2021-09-25 10:37:15,286 [INFO]  Epoch[17] Validation-country-accuracy=0.998437
+2021-09-25 10:37:47,954 [INFO]  Epoch[18] Batch [0-900]	Speed: 441.14 samples/sec	cross-entropy=0.000019	country-accuracy=1.000000
+2021-09-25 10:38:21,606 [INFO]  Epoch[18] Train-cross-entropy=0.000020
+2021-09-25 10:38:21,607 [INFO]  Epoch[18] Train-country-accuracy=1.000000
+2021-09-25 10:38:21,607 [INFO]  Epoch[18] Time cost=66.320
+2021-09-25 10:38:21,625 [INFO]  Saved checkpoint to "country\model-0018.params"
+2021-09-25 10:38:23,873 [INFO]  Epoch[18] Validation-cross-entropy=0.007044
+2021-09-25 10:38:23,873 [INFO]  Epoch[18] Validation-country-accuracy=0.998437
+2021-09-25 10:38:55,641 [INFO]  Epoch[19] Batch [0-900]	Speed: 453.67 samples/sec	cross-entropy=0.000300	country-accuracy=0.999861
+2021-09-25 10:39:24,348 [INFO]  Epoch[19] Train-cross-entropy=0.000159
+2021-09-25 10:39:24,348 [INFO]  Epoch[19] Train-country-accuracy=0.999931
+2021-09-25 10:39:24,348 [INFO]  Epoch[19] Time cost=60.476
+2021-09-25 10:39:24,362 [INFO]  Saved checkpoint to "country\model-0019.params"
+2021-09-25 10:39:26,682 [INFO]  Epoch[19] Validation-cross-entropy=0.006894
+2021-09-25 10:39:26,682 [INFO]  Epoch[19] Validation-country-accuracy=0.998437
+2021-09-25 10:39:58,473 [INFO]  Epoch[20] Batch [0-900]	Speed: 453.65 samples/sec	cross-entropy=0.000015	country-accuracy=1.000000
+2021-09-25 10:40:29,333 [INFO]  Epoch[20] Train-cross-entropy=0.000014
+2021-09-25 10:40:29,334 [INFO]  Epoch[20] Train-country-accuracy=1.000000
+2021-09-25 10:40:29,334 [INFO]  Epoch[20] Time cost=62.652
+2021-09-25 10:40:29,352 [INFO]  Saved checkpoint to "country\model-0020.params"
+2021-09-25 10:40:31,243 [INFO]  Epoch[20] Validation-cross-entropy=0.005833
+2021-09-25 10:40:31,243 [INFO]  Epoch[20] Validation-country-accuracy=0.999062
+2021-09-25 10:41:01,975 [INFO]  Epoch[21] Batch [0-900]	Speed: 469.28 samples/sec	cross-entropy=0.000008	country-accuracy=1.000000
+2021-09-25 10:41:38,561 [INFO]  Epoch[21] Train-cross-entropy=0.000008
+2021-09-25 10:41:38,562 [INFO]  Epoch[21] Train-country-accuracy=1.000000
+2021-09-25 10:41:38,562 [INFO]  Epoch[21] Time cost=67.319
+2021-09-25 10:41:38,576 [INFO]  Saved checkpoint to "country\model-0021.params"
+2021-09-25 10:41:40,663 [INFO]  Epoch[21] Validation-cross-entropy=0.006294
+2021-09-25 10:41:40,663 [INFO]  Epoch[21] Validation-country-accuracy=0.998437
+2021-09-25 10:42:09,608 [INFO]  Epoch[22] Batch [0-900]	Speed: 498.32 samples/sec	cross-entropy=0.000007	country-accuracy=1.000000
+2021-09-25 10:42:39,651 [INFO]  Epoch[22] Train-cross-entropy=0.000007
+2021-09-25 10:42:39,651 [INFO]  Epoch[22] Train-country-accuracy=1.000000
+2021-09-25 10:42:39,651 [INFO]  Epoch[22] Time cost=58.988
+2021-09-25 10:42:39,665 [INFO]  Saved checkpoint to "country\model-0022.params"
+2021-09-25 10:42:42,047 [INFO]  Epoch[22] Validation-cross-entropy=0.006514
+2021-09-25 10:42:42,047 [INFO]  Epoch[22] Validation-country-accuracy=0.999062
+2021-09-25 10:43:11,559 [INFO]  Epoch[23] Batch [0-900]	Speed: 488.75 samples/sec	cross-entropy=0.000005	country-accuracy=1.000000
+2021-09-25 10:43:42,320 [INFO]  Epoch[23] Train-cross-entropy=0.000005
+2021-09-25 10:43:42,320 [INFO]  Epoch[23] Train-country-accuracy=1.000000
+2021-09-25 10:43:42,321 [INFO]  Epoch[23] Time cost=60.273
+2021-09-25 10:43:42,338 [INFO]  Saved checkpoint to "country\model-0023.params"
+2021-09-25 10:43:44,671 [INFO]  Epoch[23] Validation-cross-entropy=0.006894
+2021-09-25 10:43:44,671 [INFO]  Epoch[23] Validation-country-accuracy=0.998750
+2021-09-25 10:44:14,250 [INFO]  Epoch[24] Batch [0-900]	Speed: 487.32 samples/sec	cross-entropy=0.000004	country-accuracy=1.000000
+2021-09-25 10:44:43,133 [INFO]  Epoch[24] Train-cross-entropy=0.000004
+2021-09-25 10:44:43,133 [INFO]  Epoch[24] Train-country-accuracy=1.000000
+2021-09-25 10:44:43,133 [INFO]  Epoch[24] Time cost=58.461
+2021-09-25 10:44:43,152 [INFO]  Saved checkpoint to "country\model-0024.params"
+2021-09-25 10:44:45,640 [INFO]  Epoch[24] Validation-cross-entropy=0.007327
+2021-09-25 10:44:45,640 [INFO]  Epoch[24] Validation-country-accuracy=0.998750
+2021-09-25 10:45:15,049 [INFO]  Epoch[25] Batch [0-900]	Speed: 490.04 samples/sec	cross-entropy=0.000004	country-accuracy=1.000000
+2021-09-25 10:45:42,639 [INFO]  Epoch[25] Train-cross-entropy=0.000011
+2021-09-25 10:45:42,639 [INFO]  Epoch[25] Train-country-accuracy=1.000000
+2021-09-25 10:45:42,639 [INFO]  Epoch[25] Time cost=56.998
+2021-09-25 10:45:42,652 [INFO]  Saved checkpoint to "country\model-0025.params"
+2021-09-25 10:45:44,955 [INFO]  No improvement detected for 5 epochs compared to 0.005833257473632876 last error obtained: 0.010434117146653224, stopping here
+2021-09-25 10:45:44,955 [INFO]  
+========== done (1562.8465433120728 s) fit model
+2021-09-26 01:07:35,270 [INFO]  CategoricalEncoder for column country                                found only 93 occurrences of value El-Salvador
+2021-09-26 01:07:35,271 [INFO]  CategoricalEncoder for column country                                found only 91 occurrences of value India
+2021-09-26 01:07:35,271 [INFO]  CategoricalEncoder for column country                                found only 84 occurrences of value Cuba
+2021-09-26 01:07:35,271 [INFO]  CategoricalEncoder for column country                                found only 82 occurrences of value England
+2021-09-26 01:07:35,271 [INFO]  CategoricalEncoder for column country                                found only 74 occurrences of value Jamaica
+2021-09-26 01:07:35,271 [INFO]  CategoricalEncoder for column country                                found only 72 occurrences of value China
+2021-09-26 01:07:35,271 [INFO]  CategoricalEncoder for column country                                found only 71 occurrences of value South
+2021-09-26 01:07:35,271 [INFO]  CategoricalEncoder for column country                                found only 67 occurrences of value Italy
+2021-09-26 01:07:35,271 [INFO]  CategoricalEncoder for column country                                found only 62 occurrences of value Vietnam
+2021-09-26 01:07:35,271 [INFO]  CategoricalEncoder for column country                                found only 61 occurrences of value Dominican-Republic
+2021-09-26 01:07:35,271 [INFO]  CategoricalEncoder for column country                                found only 58 occurrences of value Guatemala
+2021-09-26 01:07:35,271 [INFO]  CategoricalEncoder for column country                                found only 57 occurrences of value Japan
+2021-09-26 01:07:35,271 [INFO]  CategoricalEncoder for column country                                found only 55 occurrences of value Columbia
+2021-09-26 01:07:35,271 [INFO]  CategoricalEncoder for column country                                found only 52 occurrences of value Poland
+2021-09-26 01:07:35,271 [INFO]  CategoricalEncoder for column country                                found only 48 occurrences of value Taiwan
+2021-09-26 01:07:35,271 [INFO]  CategoricalEncoder for column country                                found only 38 occurrences of value Haiti
+2021-09-26 01:07:35,271 [INFO]  CategoricalEncoder for column country                                found only 37 occurrences of value Iran
+2021-09-26 01:07:35,271 [INFO]  CategoricalEncoder for column country                                found only 34 occurrences of value Portugal
+2021-09-26 01:07:35,271 [INFO]  CategoricalEncoder for column country                                found only 31 occurrences of value Nicaragua
+2021-09-26 01:07:35,271 [INFO]  CategoricalEncoder for column country                                found only 27 occurrences of value Greece
+2021-09-26 01:07:35,271 [INFO]  CategoricalEncoder for column country                                found only 27 occurrences of value Peru
+2021-09-26 01:07:35,271 [INFO]  CategoricalEncoder for column country                                found only 27 occurrences of value Ecuador
+2021-09-26 01:07:35,271 [INFO]  CategoricalEncoder for column country                                found only 25 occurrences of value France
+2021-09-26 01:07:35,271 [INFO]  CategoricalEncoder for column country                                found only 22 occurrences of value Ireland
+2021-09-26 01:07:35,271 [INFO]  CategoricalEncoder for column country                                found only 17 occurrences of value Thailand
+2021-09-26 01:07:35,271 [INFO]  CategoricalEncoder for column country                                found only 17 occurrences of value Laos
+2021-09-26 01:07:35,271 [INFO]  CategoricalEncoder for column country                                found only 17 occurrences of value Cambodia
+2021-09-26 01:07:35,271 [INFO]  CategoricalEncoder for column country                                found only 17 occurrences of value Hong
+2021-09-26 01:07:35,271 [INFO]  CategoricalEncoder for column country                                found only 15 occurrences of value Trinadad&Tobago
+2021-09-26 01:07:35,271 [INFO]  CategoricalEncoder for column country                                found only 14 occurrences of value Outlying-US(Guam-USVI-etc)
+2021-09-26 01:07:35,271 [INFO]  CategoricalEncoder for column country                                found only 14 occurrences of value Yugoslavia
+2021-09-26 01:07:35,286 [INFO]  CategoricalEncoder for column country                                found only 12 occurrences of value Honduras
+2021-09-26 01:07:35,286 [INFO]  CategoricalEncoder for column country                                found only 12 occurrences of value Hungary
+2021-09-26 01:07:35,286 [INFO]  CategoricalEncoder for column country                                found only 9 occurrences of value Scotland
+2021-09-26 01:07:35,286 [INFO]  CategoricalEncoder for column country                                found only 1 occurrences of value Holand-Netherlands
+2021-09-26 01:07:50,642 [WARNING]  Test set does not contain any ocurrences of values [Outlying-US(Guam-USVI-etc), Holand-Netherlands] in column [country], consider using a more representative test set.
+2021-09-26 01:07:50,658 [INFO]  
+========== start: fit model
+2021-09-26 01:07:50,658 [WARNING]  Already bound, ignoring bind()
+2021-09-26 01:08:17,303 [INFO]  Epoch[0] Batch [0-900]	Speed: 541.39 samples/sec	cross-entropy=0.412951	country-accuracy=0.923210
+2021-09-26 01:08:43,662 [INFO]  Epoch[0] Train-cross-entropy=0.304735
+2021-09-26 01:08:43,662 [INFO]  Epoch[0] Train-country-accuracy=0.935417
+2021-09-26 01:08:43,662 [INFO]  Epoch[0] Time cost=53.004
+2021-09-26 01:08:43,708 [INFO]  Saved checkpoint to "country\model-0000.params"
+2021-09-26 01:08:45,511 [INFO]  Epoch[0] Validation-cross-entropy=0.160942
+2021-09-26 01:08:45,511 [INFO]  Epoch[0] Validation-country-accuracy=0.954063
+2021-09-26 01:09:12,741 [INFO]  Epoch[1] Batch [0-900]	Speed: 529.14 samples/sec	cross-entropy=0.107874	country-accuracy=0.975305
+2021-09-26 01:09:39,471 [INFO]  Epoch[1] Train-cross-entropy=0.092298
+2021-09-26 01:09:39,471 [INFO]  Epoch[1] Train-country-accuracy=0.981111
+2021-09-26 01:09:39,471 [INFO]  Epoch[1] Time cost=53.960
+2021-09-26 01:09:39,487 [INFO]  Saved checkpoint to "country\model-0001.params"
+2021-09-26 01:09:40,882 [INFO]  Epoch[1] Validation-cross-entropy=0.085789
+2021-09-26 01:09:40,882 [INFO]  Epoch[1] Validation-country-accuracy=0.985625
+2021-09-26 01:10:07,752 [INFO]  Epoch[2] Batch [0-900]	Speed: 536.23 samples/sec	cross-entropy=0.050314	country-accuracy=0.995560
+2021-09-26 01:10:34,341 [INFO]  Epoch[2] Train-cross-entropy=0.044551
+2021-09-26 01:10:34,341 [INFO]  Epoch[2] Train-country-accuracy=0.996111
+2021-09-26 01:10:34,341 [INFO]  Epoch[2] Time cost=53.459
+2021-09-26 01:10:34,357 [INFO]  Saved checkpoint to "country\model-0002.params"
+2021-09-26 01:10:35,751 [INFO]  Epoch[2] Validation-cross-entropy=0.055921
+2021-09-26 01:10:35,751 [INFO]  Epoch[2] Validation-country-accuracy=0.991875
+2021-09-26 01:11:02,669 [INFO]  Epoch[3] Batch [0-900]	Speed: 535.28 samples/sec	cross-entropy=0.027406	country-accuracy=0.998266
+2021-09-26 01:11:29,555 [INFO]  Epoch[3] Train-cross-entropy=0.024500
+2021-09-26 01:11:29,555 [INFO]  Epoch[3] Train-country-accuracy=0.998264
+2021-09-26 01:11:29,555 [INFO]  Epoch[3] Time cost=53.804
+2021-09-26 01:11:29,571 [INFO]  Saved checkpoint to "country\model-0003.params"
+2021-09-26 01:11:31,216 [INFO]  Epoch[3] Validation-cross-entropy=0.041359
+2021-09-26 01:11:31,216 [INFO]  Epoch[3] Validation-country-accuracy=0.993437
+2021-09-26 01:11:57,977 [INFO]  Epoch[4] Batch [0-900]	Speed: 538.74 samples/sec	cross-entropy=0.015694	country-accuracy=0.999445
+2021-09-26 01:12:25,142 [INFO]  Epoch[4] Train-cross-entropy=0.014186
+2021-09-26 01:12:25,142 [INFO]  Epoch[4] Train-country-accuracy=0.999306
+2021-09-26 01:12:25,142 [INFO]  Epoch[4] Time cost=53.926
+2021-09-26 01:12:25,155 [INFO]  Saved checkpoint to "country\model-0004.params"
+2021-09-26 01:12:27,293 [INFO]  Epoch[4] Validation-cross-entropy=0.032262
+2021-09-26 01:12:27,293 [INFO]  Epoch[4] Validation-country-accuracy=0.994687
+2021-09-26 01:12:53,740 [INFO]  Epoch[5] Batch [0-900]	Speed: 545.13 samples/sec	cross-entropy=0.009555	country-accuracy=0.999792
+2021-09-26 01:13:20,284 [INFO]  Epoch[5] Train-cross-entropy=0.008706
+2021-09-26 01:13:20,284 [INFO]  Epoch[5] Train-country-accuracy=0.999722
+2021-09-26 01:13:20,284 [INFO]  Epoch[5] Time cost=52.991
+2021-09-26 01:13:20,297 [INFO]  Saved checkpoint to "country\model-0005.params"
+2021-09-26 01:13:22,448 [INFO]  Epoch[5] Validation-cross-entropy=0.025743
+2021-09-26 01:13:22,449 [INFO]  Epoch[5] Validation-country-accuracy=0.996563
+2021-09-26 01:13:49,597 [INFO]  Epoch[6] Batch [0-900]	Speed: 530.84 samples/sec	cross-entropy=0.006073	country-accuracy=0.999792
+2021-09-26 01:14:15,835 [INFO]  Epoch[6] Train-cross-entropy=0.005503
+2021-09-26 01:14:15,835 [INFO]  Epoch[6] Train-country-accuracy=0.999861
+2021-09-26 01:14:15,835 [INFO]  Epoch[6] Time cost=53.387
+2021-09-26 01:14:15,851 [INFO]  Saved checkpoint to "country\model-0006.params"
+2021-09-26 01:14:17,924 [INFO]  Epoch[6] Validation-cross-entropy=0.022280
+2021-09-26 01:14:17,924 [INFO]  Epoch[6] Validation-country-accuracy=0.996250
+2021-09-26 01:14:44,904 [INFO]  Epoch[7] Batch [0-900]	Speed: 534.17 samples/sec	cross-entropy=0.003874	country-accuracy=0.999931
+2021-09-26 01:15:11,192 [INFO]  Epoch[7] Train-cross-entropy=0.003517
+2021-09-26 01:15:11,192 [INFO]  Epoch[7] Train-country-accuracy=0.999965
+2021-09-26 01:15:11,193 [INFO]  Epoch[7] Time cost=53.269
+2021-09-26 01:15:11,210 [INFO]  Saved checkpoint to "country\model-0007.params"
+2021-09-26 01:15:13,079 [INFO]  Epoch[7] Validation-cross-entropy=0.019699
+2021-09-26 01:15:13,079 [INFO]  Epoch[7] Validation-country-accuracy=0.996563
+2021-09-26 01:15:40,071 [INFO]  Epoch[8] Batch [0-900]	Speed: 533.87 samples/sec	cross-entropy=0.002427	country-accuracy=1.000000
+2021-09-26 01:16:07,147 [INFO]  Epoch[8] Train-cross-entropy=0.002242
+2021-09-26 01:16:07,147 [INFO]  Epoch[8] Train-country-accuracy=1.000000
+2021-09-26 01:16:07,147 [INFO]  Epoch[8] Time cost=54.068
+2021-09-26 01:16:07,163 [INFO]  Saved checkpoint to "country\model-0008.params"
+2021-09-26 01:16:08,604 [INFO]  Epoch[8] Validation-cross-entropy=0.018256
+2021-09-26 01:16:08,604 [INFO]  Epoch[8] Validation-country-accuracy=0.996563
+2021-09-26 01:16:35,506 [INFO]  Epoch[9] Batch [0-900]	Speed: 535.59 samples/sec	cross-entropy=0.001624	country-accuracy=1.000000
+2021-09-26 01:17:02,377 [INFO]  Epoch[9] Train-cross-entropy=0.001510
+2021-09-26 01:17:02,377 [INFO]  Epoch[9] Train-country-accuracy=1.000000
+2021-09-26 01:17:02,377 [INFO]  Epoch[9] Time cost=53.773
+2021-09-26 01:17:02,392 [INFO]  Saved checkpoint to "country\model-0009.params"
+2021-09-26 01:17:04,085 [INFO]  Epoch[9] Validation-cross-entropy=0.016781
+2021-09-26 01:17:04,085 [INFO]  Epoch[9] Validation-country-accuracy=0.996563
+2021-09-26 01:17:30,783 [INFO]  Epoch[10] Batch [0-900]	Speed: 540.32 samples/sec	cross-entropy=0.001112	country-accuracy=1.000000
+2021-09-26 01:17:57,544 [INFO]  Epoch[10] Train-cross-entropy=0.001027
+2021-09-26 01:17:57,544 [INFO]  Epoch[10] Train-country-accuracy=1.000000
+2021-09-26 01:17:57,544 [INFO]  Epoch[10] Time cost=53.459
+2021-09-26 01:17:57,544 [INFO]  Saved checkpoint to "country\model-0010.params"
+2021-09-26 01:17:59,550 [INFO]  Epoch[10] Validation-cross-entropy=0.015083
+2021-09-26 01:17:59,550 [INFO]  Epoch[10] Validation-country-accuracy=0.996875
+2021-09-26 01:18:25,984 [INFO]  Epoch[11] Batch [0-900]	Speed: 545.72 samples/sec	cross-entropy=0.000750	country-accuracy=1.000000
+2021-09-26 01:18:52,867 [INFO]  Epoch[11] Train-cross-entropy=0.000690
+2021-09-26 01:18:52,867 [INFO]  Epoch[11] Train-country-accuracy=1.000000
+2021-09-26 01:18:52,867 [INFO]  Epoch[11] Time cost=53.316
+2021-09-26 01:18:52,882 [INFO]  Saved checkpoint to "country\model-0011.params"
+2021-09-26 01:18:55,092 [INFO]  Epoch[11] Validation-cross-entropy=0.013878
+2021-09-26 01:18:55,092 [INFO]  Epoch[11] Validation-country-accuracy=0.996563
+2021-09-26 01:19:21,721 [INFO]  Epoch[12] Batch [0-900]	Speed: 541.08 samples/sec	cross-entropy=0.000631	country-accuracy=1.000000
+2021-09-26 01:19:48,147 [INFO]  Epoch[12] Train-cross-entropy=0.000571
+2021-09-26 01:19:48,147 [INFO]  Epoch[12] Train-country-accuracy=1.000000
+2021-09-26 01:19:48,148 [INFO]  Epoch[12] Time cost=53.056
+2021-09-26 01:19:48,161 [INFO]  Saved checkpoint to "country\model-0012.params"
+2021-09-26 01:19:50,293 [INFO]  Epoch[12] Validation-cross-entropy=0.013722
+2021-09-26 01:19:50,293 [INFO]  Epoch[12] Validation-country-accuracy=0.996875
+2021-09-26 01:20:16,630 [INFO]  Epoch[13] Batch [0-900]	Speed: 547.08 samples/sec	cross-entropy=0.000418	country-accuracy=1.000000
+2021-09-26 01:20:43,814 [INFO]  Epoch[13] Train-cross-entropy=0.000339
+2021-09-26 01:20:43,814 [INFO]  Epoch[13] Train-country-accuracy=1.000000
+2021-09-26 01:20:43,814 [INFO]  Epoch[13] Time cost=53.522
+2021-09-26 01:20:43,830 [INFO]  Saved checkpoint to "country\model-0013.params"
+2021-09-26 01:20:45,772 [INFO]  Epoch[13] Validation-cross-entropy=0.010921
+2021-09-26 01:20:45,772 [INFO]  Epoch[13] Validation-country-accuracy=0.997500
+2021-09-26 01:21:12,260 [INFO]  Epoch[14] Batch [0-900]	Speed: 544.29 samples/sec	cross-entropy=0.000219	country-accuracy=1.000000
+2021-09-26 01:21:39,247 [INFO]  Epoch[14] Train-cross-entropy=0.000196
+2021-09-26 01:21:39,247 [INFO]  Epoch[14] Train-country-accuracy=1.000000
+2021-09-26 01:21:39,247 [INFO]  Epoch[14] Time cost=53.475
+2021-09-26 01:21:39,262 [INFO]  Saved checkpoint to "country\model-0014.params"
+2021-09-26 01:21:41,504 [INFO]  Epoch[14] Validation-cross-entropy=0.010486
+2021-09-26 01:21:41,504 [INFO]  Epoch[14] Validation-country-accuracy=0.997812
+2021-09-26 01:22:08,280 [INFO]  Epoch[15] Batch [0-900]	Speed: 538.09 samples/sec	cross-entropy=0.000140	country-accuracy=1.000000
+2021-09-26 01:22:34,743 [INFO]  Epoch[15] Train-cross-entropy=0.000140
+2021-09-26 01:22:34,743 [INFO]  Epoch[15] Train-country-accuracy=1.000000
+2021-09-26 01:22:34,743 [INFO]  Epoch[15] Time cost=53.239
+2021-09-26 01:22:34,759 [INFO]  Saved checkpoint to "country\model-0015.params"
+2021-09-26 01:22:36,907 [INFO]  Epoch[15] Validation-cross-entropy=0.012718
+2021-09-26 01:22:36,907 [INFO]  Epoch[15] Validation-country-accuracy=0.997500
+2021-09-26 01:23:04,168 [INFO]  Epoch[16] Batch [0-900]	Speed: 528.83 samples/sec	cross-entropy=0.000111	country-accuracy=1.000000
+2021-09-26 01:23:30,758 [INFO]  Epoch[16] Train-cross-entropy=0.000100
+2021-09-26 01:23:30,758 [INFO]  Epoch[16] Train-country-accuracy=1.000000
+2021-09-26 01:23:30,758 [INFO]  Epoch[16] Time cost=53.851
+2021-09-26 01:23:30,789 [INFO]  Saved checkpoint to "country\model-0016.params"
+2021-09-26 01:23:32,513 [INFO]  Epoch[16] Validation-cross-entropy=0.010657
+2021-09-26 01:23:32,513 [INFO]  Epoch[16] Validation-country-accuracy=0.997500
+2021-09-26 01:23:59,634 [INFO]  Epoch[17] Batch [0-900]	Speed: 531.56 samples/sec	cross-entropy=0.000078	country-accuracy=1.000000
+2021-09-26 01:24:26,598 [INFO]  Epoch[17] Train-cross-entropy=0.000070
+2021-09-26 01:24:26,598 [INFO]  Epoch[17] Train-country-accuracy=1.000000
+2021-09-26 01:24:26,598 [INFO]  Epoch[17] Time cost=54.086
+2021-09-26 01:24:26,598 [INFO]  Saved checkpoint to "country\model-0017.params"
+2021-09-26 01:24:28,338 [INFO]  Epoch[17] Validation-cross-entropy=0.009847
+2021-09-26 01:24:28,338 [INFO]  Epoch[17] Validation-country-accuracy=0.998125
+2021-09-26 01:24:55,115 [INFO]  Epoch[18] Batch [0-900]	Speed: 538.72 samples/sec	cross-entropy=0.000063	country-accuracy=1.000000
+2021-09-26 01:25:21,918 [INFO]  Epoch[18] Train-cross-entropy=0.000185
+2021-09-26 01:25:21,918 [INFO]  Epoch[18] Train-country-accuracy=0.999965
+2021-09-26 01:25:21,918 [INFO]  Epoch[18] Time cost=53.580
+2021-09-26 01:25:21,931 [INFO]  Saved checkpoint to "country\model-0018.params"
+2021-09-26 01:25:23,958 [INFO]  Epoch[18] Validation-cross-entropy=0.008869
+2021-09-26 01:25:23,958 [INFO]  Epoch[18] Validation-country-accuracy=0.997188
+2021-09-26 01:25:50,266 [INFO]  Epoch[19] Batch [0-900]	Speed: 548.23 samples/sec	cross-entropy=0.000061	country-accuracy=1.000000
+2021-09-26 01:26:17,057 [INFO]  Epoch[19] Train-cross-entropy=0.000053
+2021-09-26 01:26:17,057 [INFO]  Epoch[19] Train-country-accuracy=1.000000
+2021-09-26 01:26:17,057 [INFO]  Epoch[19] Time cost=53.100
+2021-09-26 01:26:17,073 [INFO]  Saved checkpoint to "country\model-0019.params"
+2021-09-26 01:26:19,379 [INFO]  Epoch[19] Validation-cross-entropy=0.009568
+2021-09-26 01:26:19,379 [INFO]  Epoch[19] Validation-country-accuracy=0.997500
+2021-09-26 01:26:45,998 [INFO]  Epoch[20] Batch [0-900]	Speed: 541.29 samples/sec	cross-entropy=0.000052	country-accuracy=1.000000
+2021-09-26 01:27:12,427 [INFO]  Epoch[20] Train-cross-entropy=0.000041
+2021-09-26 01:27:12,427 [INFO]  Epoch[20] Train-country-accuracy=1.000000
+2021-09-26 01:27:12,427 [INFO]  Epoch[20] Time cost=53.048
+2021-09-26 01:27:12,471 [INFO]  Saved checkpoint to "country\model-0020.params"
+2021-09-26 01:27:14,692 [INFO]  Epoch[20] Validation-cross-entropy=0.009794
+2021-09-26 01:27:14,692 [INFO]  Epoch[20] Validation-country-accuracy=0.997812
+2021-09-26 01:27:41,414 [INFO]  Epoch[21] Batch [0-900]	Speed: 539.61 samples/sec	cross-entropy=0.000023	country-accuracy=1.000000
+2021-09-26 01:28:07,722 [INFO]  Epoch[21] Train-cross-entropy=0.000022
+2021-09-26 01:28:07,722 [INFO]  Epoch[21] Train-country-accuracy=1.000000
+2021-09-26 01:28:07,722 [INFO]  Epoch[21] Time cost=53.030
+2021-09-26 01:28:07,737 [INFO]  Saved checkpoint to "country\model-0021.params"
+2021-09-26 01:28:09,900 [INFO]  Epoch[21] Validation-cross-entropy=0.009058
+2021-09-26 01:28:09,900 [INFO]  Epoch[21] Validation-country-accuracy=0.997812
+2021-09-26 01:28:36,456 [INFO]  Epoch[22] Batch [0-900]	Speed: 542.89 samples/sec	cross-entropy=0.000018	country-accuracy=1.000000
+2021-09-26 01:29:03,421 [INFO]  Epoch[22] Train-cross-entropy=0.000017
+2021-09-26 01:29:03,421 [INFO]  Epoch[22] Train-country-accuracy=1.000000
+2021-09-26 01:29:03,421 [INFO]  Epoch[22] Time cost=53.521
+2021-09-26 01:29:03,421 [INFO]  Saved checkpoint to "country\model-0022.params"
+2021-09-26 01:29:05,569 [INFO]  Epoch[22] Validation-cross-entropy=0.009304
+2021-09-26 01:29:05,569 [INFO]  Epoch[22] Validation-country-accuracy=0.998125
+2021-09-26 01:29:32,032 [INFO]  Epoch[23] Batch [0-900]	Speed: 545.13 samples/sec	cross-entropy=0.000014	country-accuracy=1.000000
+2021-09-26 01:29:58,887 [INFO]  Epoch[23] Train-cross-entropy=0.000014
+2021-09-26 01:29:58,887 [INFO]  Epoch[23] Train-country-accuracy=1.000000
+2021-09-26 01:29:58,887 [INFO]  Epoch[23] Time cost=53.317
+2021-09-26 01:29:58,887 [INFO]  Saved checkpoint to "country\model-0023.params"
+2021-09-26 01:30:01,035 [INFO]  No improvement detected for 5 epochs compared to 0.008868703456013245 last error obtained: 0.009389977207806184, stopping here
+2021-09-26 01:30:01,035 [INFO]  
+========== done (1330.3929665088654 s) fit model
+2021-09-26 20:03:26,228 [INFO]  CategoricalEncoder for column country                                found only 93 occurrences of value El-Salvador
+2021-09-26 20:03:26,243 [INFO]  CategoricalEncoder for column country                                found only 91 occurrences of value India
+2021-09-26 20:03:26,243 [INFO]  CategoricalEncoder for column country                                found only 84 occurrences of value Cuba
+2021-09-26 20:03:26,243 [INFO]  CategoricalEncoder for column country                                found only 82 occurrences of value England
+2021-09-26 20:03:26,243 [INFO]  CategoricalEncoder for column country                                found only 74 occurrences of value Jamaica
+2021-09-26 20:03:26,244 [INFO]  CategoricalEncoder for column country                                found only 72 occurrences of value China
+2021-09-26 20:03:26,244 [INFO]  CategoricalEncoder for column country                                found only 71 occurrences of value South
+2021-09-26 20:03:26,244 [INFO]  CategoricalEncoder for column country                                found only 67 occurrences of value Italy
+2021-09-26 20:03:26,244 [INFO]  CategoricalEncoder for column country                                found only 62 occurrences of value Vietnam
+2021-09-26 20:03:26,244 [INFO]  CategoricalEncoder for column country                                found only 61 occurrences of value Dominican-Republic
+2021-09-26 20:03:26,244 [INFO]  CategoricalEncoder for column country                                found only 58 occurrences of value Guatemala
+2021-09-26 20:03:26,244 [INFO]  CategoricalEncoder for column country                                found only 57 occurrences of value Japan
+2021-09-26 20:03:26,244 [INFO]  CategoricalEncoder for column country                                found only 55 occurrences of value Columbia
+2021-09-26 20:03:26,244 [INFO]  CategoricalEncoder for column country                                found only 52 occurrences of value Poland
+2021-09-26 20:03:26,244 [INFO]  CategoricalEncoder for column country                                found only 48 occurrences of value Taiwan
+2021-09-26 20:03:26,244 [INFO]  CategoricalEncoder for column country                                found only 38 occurrences of value Haiti
+2021-09-26 20:03:26,245 [INFO]  CategoricalEncoder for column country                                found only 37 occurrences of value Iran
+2021-09-26 20:03:26,245 [INFO]  CategoricalEncoder for column country                                found only 34 occurrences of value Portugal
+2021-09-26 20:03:26,245 [INFO]  CategoricalEncoder for column country                                found only 31 occurrences of value Nicaragua
+2021-09-26 20:03:26,245 [INFO]  CategoricalEncoder for column country                                found only 27 occurrences of value Peru
+2021-09-26 20:03:26,245 [INFO]  CategoricalEncoder for column country                                found only 27 occurrences of value Greece
+2021-09-26 20:03:26,245 [INFO]  CategoricalEncoder for column country                                found only 27 occurrences of value Ecuador
+2021-09-26 20:03:26,245 [INFO]  CategoricalEncoder for column country                                found only 25 occurrences of value France
+2021-09-26 20:03:26,245 [INFO]  CategoricalEncoder for column country                                found only 22 occurrences of value Ireland
+2021-09-26 20:03:26,245 [INFO]  CategoricalEncoder for column country                                found only 17 occurrences of value Thailand
+2021-09-26 20:03:26,245 [INFO]  CategoricalEncoder for column country                                found only 17 occurrences of value Hong
+2021-09-26 20:03:26,245 [INFO]  CategoricalEncoder for column country                                found only 17 occurrences of value Cambodia
+2021-09-26 20:03:26,245 [INFO]  CategoricalEncoder for column country                                found only 17 occurrences of value Laos
+2021-09-26 20:03:26,246 [INFO]  CategoricalEncoder for column country                                found only 15 occurrences of value Trinadad&Tobago
+2021-09-26 20:03:26,246 [INFO]  CategoricalEncoder for column country                                found only 14 occurrences of value Yugoslavia
+2021-09-26 20:03:26,246 [INFO]  CategoricalEncoder for column country                                found only 14 occurrences of value Outlying-US(Guam-USVI-etc)
+2021-09-26 20:03:26,246 [INFO]  CategoricalEncoder for column country                                found only 12 occurrences of value Hungary
+2021-09-26 20:03:26,246 [INFO]  CategoricalEncoder for column country                                found only 12 occurrences of value Honduras
+2021-09-26 20:03:26,246 [INFO]  CategoricalEncoder for column country                                found only 9 occurrences of value Scotland
+2021-09-26 20:03:26,247 [INFO]  CategoricalEncoder for column country                                found only 1 occurrences of value Holand-Netherlands
+2021-09-26 20:03:43,473 [WARNING]  Test set does not contain any ocurrences of values [Holand-Netherlands, Outlying-US(Guam-USVI-etc)] in column [country], consider using a more representative test set.
+2021-09-26 20:03:43,479 [INFO]  
+========== start: fit model
+2021-09-26 20:03:43,479 [WARNING]  Already bound, ignoring bind()
+2021-09-26 20:04:10,839 [INFO]  Epoch[0] Batch [0-900]	Speed: 527.27 samples/sec	cross-entropy=0.401215	country-accuracy=0.924181
+2021-09-26 20:04:38,174 [INFO]  Epoch[0] Train-cross-entropy=0.289619
+2021-09-26 20:04:38,174 [INFO]  Epoch[0] Train-country-accuracy=0.938542
+2021-09-26 20:04:38,174 [INFO]  Epoch[0] Time cost=54.694
+2021-09-26 20:04:38,213 [INFO]  Saved checkpoint to "country\model-0000.params"
+2021-09-26 20:04:40,536 [INFO]  Epoch[0] Validation-cross-entropy=0.141910
+2021-09-26 20:04:40,537 [INFO]  Epoch[0] Validation-country-accuracy=0.960938
+2021-09-26 20:05:07,822 [INFO]  Epoch[1] Batch [0-900]	Speed: 528.18 samples/sec	cross-entropy=0.092182	country-accuracy=0.980855
+2021-09-26 20:05:35,012 [INFO]  Epoch[1] Train-cross-entropy=0.077315
+2021-09-26 20:05:35,012 [INFO]  Epoch[1] Train-country-accuracy=0.985729
+2021-09-26 20:05:35,012 [INFO]  Epoch[1] Time cost=54.475
+2021-09-26 20:05:35,027 [INFO]  Saved checkpoint to "country\model-0001.params"
+2021-09-26 20:05:36,750 [INFO]  Epoch[1] Validation-cross-entropy=0.069192
+2021-09-26 20:05:36,750 [INFO]  Epoch[1] Validation-country-accuracy=0.990313
+2021-09-26 20:06:04,229 [INFO]  Epoch[2] Batch [0-900]	Speed: 524.78 samples/sec	cross-entropy=0.038691	country-accuracy=0.997572
+2021-09-26 20:06:31,675 [INFO]  Epoch[2] Train-cross-entropy=0.033706
+2021-09-26 20:06:31,675 [INFO]  Epoch[2] Train-country-accuracy=0.997743
+2021-09-26 20:06:31,676 [INFO]  Epoch[2] Time cost=54.925
+2021-09-26 20:06:31,693 [INFO]  Saved checkpoint to "country\model-0002.params"
+2021-09-26 20:06:34,281 [INFO]  Epoch[2] Validation-cross-entropy=0.042279
+2021-09-26 20:06:34,282 [INFO]  Epoch[2] Validation-country-accuracy=0.994375
+2021-09-26 20:07:02,063 [INFO]  Epoch[3] Batch [0-900]	Speed: 518.76 samples/sec	cross-entropy=0.019015	country-accuracy=0.999376
+2021-09-26 20:07:30,752 [INFO]  Epoch[3] Train-cross-entropy=0.016872
+2021-09-26 20:07:30,752 [INFO]  Epoch[3] Train-country-accuracy=0.999306
+2021-09-26 20:07:30,752 [INFO]  Epoch[3] Time cost=56.471
+2021-09-26 20:07:30,768 [INFO]  Saved checkpoint to "country\model-0003.params"
+2021-09-26 20:07:32,246 [INFO]  Epoch[3] Validation-cross-entropy=0.029631
+2021-09-26 20:07:32,246 [INFO]  Epoch[3] Validation-country-accuracy=0.996250
+2021-09-26 20:07:58,967 [INFO]  Epoch[4] Batch [0-900]	Speed: 539.36 samples/sec	cross-entropy=0.010164	country-accuracy=0.999723
+2021-09-26 20:08:25,548 [INFO]  Epoch[4] Train-cross-entropy=0.009162
+2021-09-26 20:08:25,548 [INFO]  Epoch[4] Train-country-accuracy=0.999687
+2021-09-26 20:08:25,548 [INFO]  Epoch[4] Time cost=53.302
+2021-09-26 20:08:25,566 [INFO]  Saved checkpoint to "country\model-0004.params"
+2021-09-26 20:08:27,153 [INFO]  Epoch[4] Validation-cross-entropy=0.021769
+2021-09-26 20:08:27,153 [INFO]  Epoch[4] Validation-country-accuracy=0.997188
+2021-09-26 20:08:54,044 [INFO]  Epoch[5] Batch [0-900]	Speed: 535.91 samples/sec	cross-entropy=0.005818	country-accuracy=0.999861
+2021-09-26 20:09:21,080 [INFO]  Epoch[5] Train-cross-entropy=0.005264
+2021-09-26 20:09:21,080 [INFO]  Epoch[5] Train-country-accuracy=0.999931
+2021-09-26 20:09:21,080 [INFO]  Epoch[5] Time cost=53.927
+2021-09-26 20:09:21,094 [INFO]  Saved checkpoint to "country\model-0005.params"
+2021-09-26 20:09:22,425 [INFO]  Epoch[5] Validation-cross-entropy=0.017147
+2021-09-26 20:09:22,425 [INFO]  Epoch[5] Validation-country-accuracy=0.997188
+2021-09-26 20:09:49,243 [INFO]  Epoch[6] Batch [0-900]	Speed: 537.35 samples/sec	cross-entropy=0.003390	country-accuracy=1.000000
+2021-09-26 20:10:16,075 [INFO]  Epoch[6] Train-cross-entropy=0.003099
+2021-09-26 20:10:16,076 [INFO]  Epoch[6] Train-country-accuracy=1.000000
+2021-09-26 20:10:16,076 [INFO]  Epoch[6] Time cost=53.651
+2021-09-26 20:10:16,089 [INFO]  Saved checkpoint to "country\model-0006.params"
+2021-09-26 20:10:17,447 [INFO]  Epoch[6] Validation-cross-entropy=0.015354
+2021-09-26 20:10:17,447 [INFO]  Epoch[6] Validation-country-accuracy=0.996875
+2021-09-26 20:10:44,277 [INFO]  Epoch[7] Batch [0-900]	Speed: 537.19 samples/sec	cross-entropy=0.002042	country-accuracy=1.000000
+2021-09-26 20:11:11,063 [INFO]  Epoch[7] Train-cross-entropy=0.001870
+2021-09-26 20:11:11,063 [INFO]  Epoch[7] Train-country-accuracy=1.000000
+2021-09-26 20:11:11,064 [INFO]  Epoch[7] Time cost=53.618
+2021-09-26 20:11:11,077 [INFO]  Saved checkpoint to "country\model-0007.params"
+2021-09-26 20:11:12,410 [INFO]  Epoch[7] Validation-cross-entropy=0.013110
+2021-09-26 20:11:12,410 [INFO]  Epoch[7] Validation-country-accuracy=0.997188
+2021-09-26 20:11:39,265 [INFO]  Epoch[8] Batch [0-900]	Speed: 536.67 samples/sec	cross-entropy=0.001252	country-accuracy=1.000000
+2021-09-26 20:12:06,251 [INFO]  Epoch[8] Train-cross-entropy=0.001160
+2021-09-26 20:12:06,251 [INFO]  Epoch[8] Train-country-accuracy=1.000000
+2021-09-26 20:12:06,251 [INFO]  Epoch[8] Time cost=53.841
+2021-09-26 20:12:06,265 [INFO]  Saved checkpoint to "country\model-0008.params"
+2021-09-26 20:12:07,622 [INFO]  Epoch[8] Validation-cross-entropy=0.012059
+2021-09-26 20:12:07,622 [INFO]  Epoch[8] Validation-country-accuracy=0.997500
+2021-09-26 20:12:34,422 [INFO]  Epoch[9] Batch [0-900]	Speed: 537.74 samples/sec	cross-entropy=0.000787	country-accuracy=1.000000
+2021-09-26 20:13:02,227 [INFO]  Epoch[9] Train-cross-entropy=0.000737
+2021-09-26 20:13:02,227 [INFO]  Epoch[9] Train-country-accuracy=1.000000
+2021-09-26 20:13:02,227 [INFO]  Epoch[9] Time cost=54.605
+2021-09-26 20:13:02,243 [INFO]  Saved checkpoint to "country\model-0009.params"
+2021-09-26 20:13:04,788 [INFO]  Epoch[9] Validation-cross-entropy=0.010897
+2021-09-26 20:13:04,789 [INFO]  Epoch[9] Validation-country-accuracy=0.997812
+2021-09-26 20:13:35,955 [INFO]  Epoch[10] Batch [0-900]	Speed: 462.43 samples/sec	cross-entropy=0.000516	country-accuracy=1.000000
+2021-09-26 20:14:05,024 [INFO]  Epoch[10] Train-cross-entropy=0.000493
+2021-09-26 20:14:05,025 [INFO]  Epoch[10] Train-country-accuracy=1.000000
+2021-09-26 20:14:05,025 [INFO]  Epoch[10] Time cost=60.236
+2021-09-26 20:14:05,043 [INFO]  Saved checkpoint to "country\model-0010.params"
+2021-09-26 20:14:06,886 [INFO]  Epoch[10] Validation-cross-entropy=0.010558
+2021-09-26 20:14:06,886 [INFO]  Epoch[10] Validation-country-accuracy=0.997500
+2021-09-26 20:14:35,217 [INFO]  Epoch[11] Batch [0-900]	Speed: 508.76 samples/sec	cross-entropy=0.000434	country-accuracy=1.000000
+2021-09-26 20:15:03,155 [INFO]  Epoch[11] Train-cross-entropy=0.000375
+2021-09-26 20:15:03,156 [INFO]  Epoch[11] Train-country-accuracy=1.000000
+2021-09-26 20:15:03,156 [INFO]  Epoch[11] Time cost=56.270
+2021-09-26 20:15:03,174 [INFO]  Saved checkpoint to "country\model-0011.params"
+2021-09-26 20:15:05,016 [INFO]  Epoch[11] Validation-cross-entropy=0.008404
+2021-09-26 20:15:05,016 [INFO]  Epoch[11] Validation-country-accuracy=0.997500
+2021-09-26 20:15:32,887 [INFO]  Epoch[12] Batch [0-900]	Speed: 517.10 samples/sec	cross-entropy=0.000247	country-accuracy=1.000000
+2021-09-26 20:16:01,756 [INFO]  Epoch[12] Train-cross-entropy=0.000204
+2021-09-26 20:16:01,756 [INFO]  Epoch[12] Train-country-accuracy=1.000000
+2021-09-26 20:16:01,756 [INFO]  Epoch[12] Time cost=56.741
+2021-09-26 20:16:01,776 [INFO]  Saved checkpoint to "country\model-0012.params"
+2021-09-26 20:16:03,726 [INFO]  Epoch[12] Validation-cross-entropy=0.008955
+2021-09-26 20:16:03,727 [INFO]  Epoch[12] Validation-country-accuracy=0.997812
+2021-09-26 20:16:30,735 [INFO]  Epoch[13] Batch [0-900]	Speed: 534.10 samples/sec	cross-entropy=0.000112	country-accuracy=1.000000
+2021-09-26 20:16:57,689 [INFO]  Epoch[13] Train-cross-entropy=0.000107
+2021-09-26 20:16:57,689 [INFO]  Epoch[13] Train-country-accuracy=1.000000
+2021-09-26 20:16:57,689 [INFO]  Epoch[13] Time cost=53.962
+2021-09-26 20:16:57,705 [INFO]  Saved checkpoint to "country\model-0013.params"
+2021-09-26 20:16:59,970 [INFO]  Epoch[13] Validation-cross-entropy=0.009090
+2021-09-26 20:16:59,970 [INFO]  Epoch[13] Validation-country-accuracy=0.998125
+2021-09-26 20:17:26,549 [INFO]  Epoch[14] Batch [0-900]	Speed: 542.09 samples/sec	cross-entropy=0.000086	country-accuracy=1.000000
+2021-09-26 20:17:54,034 [INFO]  Epoch[14] Train-cross-entropy=0.000080
+2021-09-26 20:17:54,034 [INFO]  Epoch[14] Train-country-accuracy=1.000000
+2021-09-26 20:17:54,034 [INFO]  Epoch[14] Time cost=54.065
+2021-09-26 20:17:54,048 [INFO]  Saved checkpoint to "country\model-0014.params"
+2021-09-26 20:17:56,212 [INFO]  Epoch[14] Validation-cross-entropy=0.008893
+2021-09-26 20:17:56,213 [INFO]  Epoch[14] Validation-country-accuracy=0.998437
+2021-09-26 20:18:26,021 [INFO]  Epoch[15] Batch [0-900]	Speed: 483.77 samples/sec	cross-entropy=0.000054	country-accuracy=1.000000
+2021-09-26 20:18:54,709 [INFO]  Epoch[15] Train-cross-entropy=0.000052
+2021-09-26 20:18:54,709 [INFO]  Epoch[15] Train-country-accuracy=1.000000
+2021-09-26 20:18:54,709 [INFO]  Epoch[15] Time cost=58.497
+2021-09-26 20:18:54,734 [INFO]  Saved checkpoint to "country\model-0015.params"
+2021-09-26 20:18:57,082 [INFO]  Epoch[15] Validation-cross-entropy=0.009088
+2021-09-26 20:18:57,082 [INFO]  Epoch[15] Validation-country-accuracy=0.998125
+2021-09-26 20:19:26,651 [INFO]  Epoch[16] Batch [0-900]	Speed: 487.36 samples/sec	cross-entropy=0.000038	country-accuracy=1.000000
+2021-09-26 20:19:54,198 [INFO]  Epoch[16] Train-cross-entropy=0.000037
+2021-09-26 20:19:54,199 [INFO]  Epoch[16] Train-country-accuracy=1.000000
+2021-09-26 20:19:54,199 [INFO]  Epoch[16] Time cost=57.117
+2021-09-26 20:19:54,216 [INFO]  Saved checkpoint to "country\model-0016.params"
+2021-09-26 20:19:56,471 [INFO]  No improvement detected for 5 epochs compared to 0.008404201300476437 last error obtained: 0.009530838359030942, stopping here
+2021-09-26 20:19:56,472 [INFO]  
+========== done (972.9930398464203 s) fit model

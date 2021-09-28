@@ -1,0 +1,576 @@
+2021-09-24 19:27:28,511 [INFO]  CategoricalEncoder for column type_employer                                found only 14 occurrences of value Without-pay
+2021-09-24 19:27:28,511 [INFO]  CategoricalEncoder for column type_employer                                found only 7 occurrences of value Never-worked
+2021-09-24 19:27:43,402 [WARNING]  Test set does not contain any ocurrences of values [Never-worked, Without-pay] in column [type_employer], consider using a more representative test set.
+2021-09-24 19:27:43,648 [INFO]  
+========== start: fit model
+2021-09-24 19:27:43,648 [WARNING]  Already bound, ignoring bind()
+2021-09-24 19:27:53,938 [INFO]  Epoch[0] Batch [0-865]	Speed: 1373.56 samples/sec	cross-entropy=0.398097	type_employer-accuracy=0.881856
+2021-09-24 19:28:05,175 [INFO]  Epoch[0] Train-cross-entropy=0.243177
+2021-09-24 19:28:05,176 [INFO]  Epoch[0] Train-type_employer-accuracy=0.938512
+2021-09-24 19:28:05,176 [INFO]  Epoch[0] Time cost=21.524
+2021-09-24 19:28:05,245 [INFO]  Saved checkpoint to "type_employer\model-0000.params"
+2021-09-24 19:28:06,089 [INFO]  Epoch[0] Validation-cross-entropy=0.050480
+2021-09-24 19:28:06,090 [INFO]  Epoch[0] Validation-type_employer-accuracy=0.998698
+2021-09-24 19:28:17,697 [INFO]  Epoch[1] Batch [0-865]	Speed: 1193.50 samples/sec	cross-entropy=0.038817	type_employer-accuracy=0.998773
+2021-09-24 19:28:27,943 [INFO]  Epoch[1] Train-cross-entropy=0.029507
+2021-09-24 19:28:27,945 [INFO]  Epoch[1] Train-type_employer-accuracy=0.999060
+2021-09-24 19:28:27,946 [INFO]  Epoch[1] Time cost=21.855
+2021-09-24 19:28:27,957 [INFO]  Saved checkpoint to "type_employer\model-0001.params"
+2021-09-24 19:28:29,390 [INFO]  Epoch[1] Validation-cross-entropy=0.014101
+2021-09-24 19:28:29,390 [INFO]  Epoch[1] Validation-type_employer-accuracy=1.000000
+2021-09-24 19:28:39,204 [INFO]  Epoch[2] Batch [0-865]	Speed: 1411.84 samples/sec	cross-entropy=0.012220	type_employer-accuracy=0.999350
+2021-09-24 19:28:50,063 [INFO]  Epoch[2] Train-cross-entropy=0.009718
+2021-09-24 19:28:50,065 [INFO]  Epoch[2] Train-type_employer-accuracy=0.999566
+2021-09-24 19:28:50,066 [INFO]  Epoch[2] Time cost=20.675
+2021-09-24 19:28:50,075 [INFO]  Saved checkpoint to "type_employer\model-0002.params"
+2021-09-24 19:28:51,176 [INFO]  Epoch[2] Validation-cross-entropy=0.005509
+2021-09-24 19:28:51,177 [INFO]  Epoch[2] Validation-type_employer-accuracy=1.000000
+2021-09-24 19:29:03,485 [INFO]  Epoch[3] Batch [0-865]	Speed: 1125.36 samples/sec	cross-entropy=0.004703	type_employer-accuracy=0.999856
+2021-09-24 19:29:15,371 [INFO]  Epoch[3] Train-cross-entropy=0.003798
+2021-09-24 19:29:15,371 [INFO]  Epoch[3] Train-type_employer-accuracy=0.999928
+2021-09-24 19:29:15,371 [INFO]  Epoch[3] Time cost=24.195
+2021-09-24 19:29:15,380 [INFO]  Saved checkpoint to "type_employer\model-0003.params"
+2021-09-24 19:29:16,291 [INFO]  Epoch[3] Validation-cross-entropy=0.002292
+2021-09-24 19:29:16,292 [INFO]  Epoch[3] Validation-type_employer-accuracy=1.000000
+2021-09-24 19:29:27,005 [INFO]  Epoch[4] Batch [0-865]	Speed: 1293.01 samples/sec	cross-entropy=0.001965	type_employer-accuracy=1.000000
+2021-09-24 19:29:38,213 [INFO]  Epoch[4] Train-cross-entropy=0.001603
+2021-09-24 19:29:38,214 [INFO]  Epoch[4] Train-type_employer-accuracy=1.000000
+2021-09-24 19:29:38,216 [INFO]  Epoch[4] Time cost=21.924
+2021-09-24 19:29:38,225 [INFO]  Saved checkpoint to "type_employer\model-0004.params"
+2021-09-24 19:29:39,597 [INFO]  Epoch[4] Validation-cross-entropy=0.000995
+2021-09-24 19:29:39,598 [INFO]  Epoch[4] Validation-type_employer-accuracy=1.000000
+2021-09-24 19:29:49,671 [INFO]  Epoch[5] Batch [0-865]	Speed: 1375.60 samples/sec	cross-entropy=0.000856	type_employer-accuracy=1.000000
+2021-09-24 19:30:00,858 [INFO]  Epoch[5] Train-cross-entropy=0.000705
+2021-09-24 19:30:00,859 [INFO]  Epoch[5] Train-type_employer-accuracy=1.000000
+2021-09-24 19:30:00,860 [INFO]  Epoch[5] Time cost=21.262
+2021-09-24 19:30:00,865 [INFO]  Saved checkpoint to "type_employer\model-0005.params"
+2021-09-24 19:30:01,785 [INFO]  Epoch[5] Validation-cross-entropy=0.000449
+2021-09-24 19:30:01,786 [INFO]  Epoch[5] Validation-type_employer-accuracy=1.000000
+2021-09-24 19:30:04,327 [INFO]  
+========== done (140.68008708953857 s) fit model
+2021-09-24 19:31:01,286 [INFO]  CategoricalEncoder for column type_employer                                found only 14 occurrences of value Without-pay
+2021-09-24 19:31:01,286 [INFO]  CategoricalEncoder for column type_employer                                found only 14 occurrences of value Without-pay
+2021-09-24 19:31:01,287 [INFO]  CategoricalEncoder for column type_employer                                found only 7 occurrences of value Never-worked
+2021-09-24 19:31:01,287 [INFO]  CategoricalEncoder for column type_employer                                found only 7 occurrences of value Never-worked
+2021-09-24 19:31:15,295 [WARNING]  Test set does not contain any ocurrences of values [Never-worked, Without-pay] in column [type_employer], consider using a more representative test set.
+2021-09-24 19:31:15,295 [WARNING]  Test set does not contain any ocurrences of values [Never-worked, Without-pay] in column [type_employer], consider using a more representative test set.
+2021-09-24 19:31:15,302 [INFO]  
+========== start: fit model
+2021-09-24 19:31:15,302 [INFO]  
+========== start: fit model
+2021-09-24 19:31:15,303 [WARNING]  Already bound, ignoring bind()
+2021-09-24 19:31:15,303 [WARNING]  Already bound, ignoring bind()
+2021-09-24 19:31:26,371 [INFO]  Epoch[0] Batch [0-865]	Speed: 1252.76 samples/sec	cross-entropy=0.397317	type_employer-accuracy=0.882145
+2021-09-24 19:31:26,371 [INFO]  Epoch[0] Batch [0-865]	Speed: 1252.76 samples/sec	cross-entropy=0.397317	type_employer-accuracy=0.882145
+2021-09-24 19:31:36,627 [INFO]  Epoch[0] Train-cross-entropy=0.242782
+2021-09-24 19:31:36,627 [INFO]  Epoch[0] Train-cross-entropy=0.242782
+2021-09-24 19:31:36,628 [INFO]  Epoch[0] Train-type_employer-accuracy=0.938657
+2021-09-24 19:31:36,628 [INFO]  Epoch[0] Train-type_employer-accuracy=0.938657
+2021-09-24 19:31:36,629 [INFO]  Epoch[0] Time cost=21.324
+2021-09-24 19:31:36,629 [INFO]  Epoch[0] Time cost=21.324
+2021-09-24 19:31:36,634 [INFO]  Saved checkpoint to "type_employer\model-0000.params"
+2021-09-24 19:31:36,634 [INFO]  Saved checkpoint to "type_employer\model-0000.params"
+2021-09-24 19:31:38,187 [INFO]  Epoch[0] Validation-cross-entropy=0.050500
+2021-09-24 19:31:38,187 [INFO]  Epoch[0] Validation-cross-entropy=0.050500
+2021-09-24 19:31:38,189 [INFO]  Epoch[0] Validation-type_employer-accuracy=0.998698
+2021-09-24 19:31:38,189 [INFO]  Epoch[0] Validation-type_employer-accuracy=0.998698
+2021-09-24 19:31:48,621 [INFO]  Epoch[1] Batch [0-865]	Speed: 1329.73 samples/sec	cross-entropy=0.038836	type_employer-accuracy=0.998773
+2021-09-24 19:31:48,621 [INFO]  Epoch[1] Batch [0-865]	Speed: 1329.73 samples/sec	cross-entropy=0.038836	type_employer-accuracy=0.998773
+2021-09-24 19:31:59,695 [INFO]  Epoch[1] Train-cross-entropy=0.029514
+2021-09-24 19:31:59,695 [INFO]  Epoch[1] Train-cross-entropy=0.029514
+2021-09-24 19:31:59,695 [INFO]  Epoch[1] Train-type_employer-accuracy=0.999060
+2021-09-24 19:31:59,695 [INFO]  Epoch[1] Train-type_employer-accuracy=0.999060
+2021-09-24 19:31:59,695 [INFO]  Epoch[1] Time cost=21.505
+2021-09-24 19:31:59,695 [INFO]  Epoch[1] Time cost=21.505
+2021-09-24 19:31:59,711 [INFO]  Saved checkpoint to "type_employer\model-0001.params"
+2021-09-24 19:31:59,711 [INFO]  Saved checkpoint to "type_employer\model-0001.params"
+2021-09-24 19:32:00,639 [INFO]  Epoch[1] Validation-cross-entropy=0.014101
+2021-09-24 19:32:00,639 [INFO]  Epoch[1] Validation-cross-entropy=0.014101
+2021-09-24 19:32:00,640 [INFO]  Epoch[1] Validation-type_employer-accuracy=1.000000
+2021-09-24 19:32:00,640 [INFO]  Epoch[1] Validation-type_employer-accuracy=1.000000
+2021-09-24 19:32:11,066 [INFO]  Epoch[2] Batch [0-865]	Speed: 1329.09 samples/sec	cross-entropy=0.012216	type_employer-accuracy=0.999423
+2021-09-24 19:32:11,066 [INFO]  Epoch[2] Batch [0-865]	Speed: 1329.09 samples/sec	cross-entropy=0.012216	type_employer-accuracy=0.999423
+2021-09-24 19:32:22,091 [INFO]  Epoch[2] Train-cross-entropy=0.009704
+2021-09-24 19:32:22,091 [INFO]  Epoch[2] Train-cross-entropy=0.009704
+2021-09-24 19:32:22,106 [INFO]  Epoch[2] Train-type_employer-accuracy=0.999602
+2021-09-24 19:32:22,106 [INFO]  Epoch[2] Train-type_employer-accuracy=0.999602
+2021-09-24 19:32:22,106 [INFO]  Epoch[2] Time cost=21.465
+2021-09-24 19:32:22,106 [INFO]  Epoch[2] Time cost=21.465
+2021-09-24 19:32:22,112 [INFO]  Saved checkpoint to "type_employer\model-0002.params"
+2021-09-24 19:32:22,112 [INFO]  Saved checkpoint to "type_employer\model-0002.params"
+2021-09-24 19:32:23,673 [INFO]  Epoch[2] Validation-cross-entropy=0.005482
+2021-09-24 19:32:23,673 [INFO]  Epoch[2] Validation-cross-entropy=0.005482
+2021-09-24 19:32:23,675 [INFO]  Epoch[2] Validation-type_employer-accuracy=1.000000
+2021-09-24 19:32:23,675 [INFO]  Epoch[2] Validation-type_employer-accuracy=1.000000
+2021-09-24 19:32:35,145 [INFO]  Epoch[3] Batch [0-865]	Speed: 1209.90 samples/sec	cross-entropy=0.004710	type_employer-accuracy=0.999783
+2021-09-24 19:32:35,145 [INFO]  Epoch[3] Batch [0-865]	Speed: 1209.90 samples/sec	cross-entropy=0.004710	type_employer-accuracy=0.999783
+2021-09-24 19:32:45,707 [INFO]  Epoch[3] Train-cross-entropy=0.003798
+2021-09-24 19:32:45,707 [INFO]  Epoch[3] Train-cross-entropy=0.003798
+2021-09-24 19:32:45,709 [INFO]  Epoch[3] Train-type_employer-accuracy=0.999892
+2021-09-24 19:32:45,709 [INFO]  Epoch[3] Train-type_employer-accuracy=0.999892
+2021-09-24 19:32:45,709 [INFO]  Epoch[3] Time cost=22.032
+2021-09-24 19:32:45,709 [INFO]  Epoch[3] Time cost=22.032
+2021-09-24 19:32:45,716 [INFO]  Saved checkpoint to "type_employer\model-0003.params"
+2021-09-24 19:32:45,716 [INFO]  Saved checkpoint to "type_employer\model-0003.params"
+2021-09-24 19:32:46,614 [INFO]  Epoch[3] Validation-cross-entropy=0.002276
+2021-09-24 19:32:46,614 [INFO]  Epoch[3] Validation-cross-entropy=0.002276
+2021-09-24 19:32:46,615 [INFO]  Epoch[3] Validation-type_employer-accuracy=1.000000
+2021-09-24 19:32:46,615 [INFO]  Epoch[3] Validation-type_employer-accuracy=1.000000
+2021-09-24 19:32:59,567 [INFO]  Epoch[4] Batch [0-865]	Speed: 1069.46 samples/sec	cross-entropy=0.001967	type_employer-accuracy=1.000000
+2021-09-24 19:32:59,567 [INFO]  Epoch[4] Batch [0-865]	Speed: 1069.46 samples/sec	cross-entropy=0.001967	type_employer-accuracy=1.000000
+2021-09-24 19:33:07,760 [INFO]  
+========== done (112.45789432525635 s) fit model
+2021-09-24 19:33:07,760 [INFO]  
+========== done (112.45789432525635 s) fit model
+2021-09-24 19:33:51,147 [INFO]  CategoricalEncoder for column type_employer                                found only 14 occurrences of value Without-pay
+2021-09-24 19:33:51,149 [INFO]  CategoricalEncoder for column type_employer                                found only 7 occurrences of value Never-worked
+2021-09-24 19:34:06,045 [WARNING]  Test set does not contain any ocurrences of values [Never-worked, Without-pay] in column [type_employer], consider using a more representative test set.
+2021-09-24 19:34:06,065 [INFO]  
+========== start: fit model
+2021-09-24 19:34:06,066 [WARNING]  Already bound, ignoring bind()
+2021-09-24 19:34:17,318 [INFO]  Epoch[0] Batch [0-865]	Speed: 1232.01 samples/sec	cross-entropy=0.397460	type_employer-accuracy=0.882289
+2021-09-24 19:34:27,198 [INFO]  Epoch[0] Train-cross-entropy=0.242734
+2021-09-24 19:34:27,199 [INFO]  Epoch[0] Train-type_employer-accuracy=0.938765
+2021-09-24 19:34:27,199 [INFO]  Epoch[0] Time cost=21.130
+2021-09-24 19:34:27,205 [INFO]  Saved checkpoint to "type_employer\model-0000.params"
+2021-09-24 19:34:28,095 [INFO]  Epoch[0] Validation-cross-entropy=0.050320
+2021-09-24 19:34:28,096 [INFO]  Epoch[0] Validation-type_employer-accuracy=0.998698
+2021-09-24 19:34:39,145 [INFO]  Epoch[1] Batch [0-865]	Speed: 1255.36 samples/sec	cross-entropy=0.038706	type_employer-accuracy=0.998845
+2021-09-24 19:34:50,978 [INFO]  Epoch[1] Train-cross-entropy=0.029418
+2021-09-24 19:34:50,979 [INFO]  Epoch[1] Train-type_employer-accuracy=0.999096
+2021-09-24 19:34:50,980 [INFO]  Epoch[1] Time cost=22.883
+2021-09-24 19:34:50,985 [INFO]  Saved checkpoint to "type_employer\model-0001.params"
+2021-09-24 19:34:51,893 [INFO]  Epoch[1] Validation-cross-entropy=0.014037
+2021-09-24 19:34:51,894 [INFO]  Epoch[1] Validation-type_employer-accuracy=1.000000
+2021-09-24 19:35:03,145 [INFO]  Epoch[2] Batch [0-865]	Speed: 1231.32 samples/sec	cross-entropy=0.012169	type_employer-accuracy=0.999350
+2021-09-24 19:35:14,092 [INFO]  Epoch[2] Train-cross-entropy=0.009679
+2021-09-24 19:35:14,093 [INFO]  Epoch[2] Train-type_employer-accuracy=0.999566
+2021-09-24 19:35:14,093 [INFO]  Epoch[2] Time cost=22.198
+2021-09-24 19:35:14,099 [INFO]  Saved checkpoint to "type_employer\model-0002.params"
+2021-09-24 19:35:14,960 [INFO]  Epoch[2] Validation-cross-entropy=0.005469
+2021-09-24 19:35:14,961 [INFO]  Epoch[2] Validation-type_employer-accuracy=1.000000
+2021-09-24 19:35:26,631 [INFO]  Epoch[3] Batch [0-865]	Speed: 1187.12 samples/sec	cross-entropy=0.004681	type_employer-accuracy=0.999856
+2021-09-24 19:35:38,264 [INFO]  Epoch[3] Train-cross-entropy=0.003783
+2021-09-24 19:35:38,265 [INFO]  Epoch[3] Train-type_employer-accuracy=0.999928
+2021-09-24 19:35:38,266 [INFO]  Epoch[3] Time cost=23.305
+2021-09-24 19:35:38,272 [INFO]  Saved checkpoint to "type_employer\model-0003.params"
+2021-09-24 19:35:39,189 [INFO]  Epoch[3] Validation-cross-entropy=0.002299
+2021-09-24 19:35:39,190 [INFO]  Epoch[3] Validation-type_employer-accuracy=1.000000
+2021-09-24 19:35:50,738 [INFO]  Epoch[4] Batch [0-865]	Speed: 1199.60 samples/sec	cross-entropy=0.001955	type_employer-accuracy=1.000000
+2021-09-24 19:36:02,037 [INFO]  Epoch[4] Train-cross-entropy=0.001596
+2021-09-24 19:36:02,038 [INFO]  Epoch[4] Train-type_employer-accuracy=1.000000
+2021-09-24 19:36:02,040 [INFO]  Epoch[4] Time cost=22.849
+2021-09-24 19:36:02,050 [INFO]  Saved checkpoint to "type_employer\model-0004.params"
+2021-09-24 19:36:03,224 [INFO]  Epoch[4] Validation-cross-entropy=0.000991
+2021-09-24 19:36:03,225 [INFO]  Epoch[4] Validation-type_employer-accuracy=1.000000
+2021-09-24 19:36:14,230 [INFO]  Epoch[5] Batch [0-865]	Speed: 1259.13 samples/sec	cross-entropy=0.000849	type_employer-accuracy=1.000000
+2021-09-24 19:36:25,822 [INFO]  Epoch[5] Train-cross-entropy=0.000700
+2021-09-24 19:36:25,823 [INFO]  Epoch[5] Train-type_employer-accuracy=1.000000
+2021-09-24 19:36:25,823 [INFO]  Epoch[5] Time cost=22.598
+2021-09-24 19:36:25,831 [INFO]  Saved checkpoint to "type_employer\model-0005.params"
+2021-09-24 19:36:26,940 [INFO]  Epoch[5] Validation-cross-entropy=0.000444
+2021-09-24 19:36:26,941 [INFO]  Epoch[5] Validation-type_employer-accuracy=1.000000
+2021-09-24 19:36:39,008 [INFO]  Epoch[6] Batch [0-865]	Speed: 1148.65 samples/sec	cross-entropy=0.000382	type_employer-accuracy=1.000000
+2021-09-24 19:36:50,574 [INFO]  Epoch[6] Train-cross-entropy=0.000318
+2021-09-24 19:36:50,575 [INFO]  Epoch[6] Train-type_employer-accuracy=1.000000
+2021-09-24 19:36:50,576 [INFO]  Epoch[6] Time cost=23.634
+2021-09-24 19:36:50,585 [INFO]  Saved checkpoint to "type_employer\model-0006.params"
+2021-09-24 19:36:51,851 [INFO]  Epoch[6] Validation-cross-entropy=0.000204
+2021-09-24 19:36:51,855 [INFO]  Epoch[6] Validation-type_employer-accuracy=1.000000
+2021-09-24 19:37:02,796 [INFO]  Epoch[7] Batch [0-865]	Speed: 1266.46 samples/sec	cross-entropy=0.000177	type_employer-accuracy=1.000000
+2021-09-24 19:37:13,918 [INFO]  Epoch[7] Train-cross-entropy=0.000148
+2021-09-24 19:37:13,919 [INFO]  Epoch[7] Train-type_employer-accuracy=1.000000
+2021-09-24 19:37:13,920 [INFO]  Epoch[7] Time cost=22.064
+2021-09-24 19:37:13,926 [INFO]  Saved checkpoint to "type_employer\model-0007.params"
+2021-09-24 19:37:15,132 [INFO]  Epoch[7] Validation-cross-entropy=0.000097
+2021-09-24 19:37:15,133 [INFO]  Epoch[7] Validation-type_employer-accuracy=1.000000
+2021-09-24 19:37:26,804 [INFO]  Epoch[8] Batch [0-865]	Speed: 1188.40 samples/sec	cross-entropy=0.000084	type_employer-accuracy=1.000000
+2021-09-24 19:37:38,316 [INFO]  Epoch[8] Train-cross-entropy=0.000071
+2021-09-24 19:37:38,317 [INFO]  Epoch[8] Train-type_employer-accuracy=1.000000
+2021-09-24 19:37:38,317 [INFO]  Epoch[8] Time cost=23.182
+2021-09-24 19:37:38,323 [INFO]  Saved checkpoint to "type_employer\model-0008.params"
+2021-09-24 19:37:39,349 [INFO]  Epoch[8] Validation-cross-entropy=0.000048
+2021-09-24 19:37:39,351 [INFO]  Epoch[8] Validation-type_employer-accuracy=1.000000
+2021-09-24 19:37:50,585 [INFO]  Epoch[9] Batch [0-865]	Speed: 1234.94 samples/sec	cross-entropy=0.000042	type_employer-accuracy=1.000000
+2021-09-24 19:38:02,031 [INFO]  Epoch[9] Train-cross-entropy=0.000036
+2021-09-24 19:38:02,033 [INFO]  Epoch[9] Train-type_employer-accuracy=1.000000
+2021-09-24 19:38:02,034 [INFO]  Epoch[9] Time cost=22.682
+2021-09-24 19:38:02,045 [INFO]  Saved checkpoint to "type_employer\model-0009.params"
+2021-09-24 19:38:03,159 [INFO]  Epoch[9] Validation-cross-entropy=0.000025
+2021-09-24 19:38:03,160 [INFO]  Epoch[9] Validation-type_employer-accuracy=1.000000
+2021-09-24 19:38:14,661 [INFO]  Epoch[10] Batch [0-865]	Speed: 1204.77 samples/sec	cross-entropy=0.000023	type_employer-accuracy=1.000000
+2021-09-24 19:38:24,976 [INFO]  Epoch[10] Train-cross-entropy=0.000021
+2021-09-24 19:38:24,977 [INFO]  Epoch[10] Train-type_employer-accuracy=1.000000
+2021-09-24 19:38:24,977 [INFO]  Epoch[10] Time cost=21.816
+2021-09-24 19:38:24,983 [INFO]  Saved checkpoint to "type_employer\model-0010.params"
+2021-09-24 19:38:26,610 [INFO]  Epoch[10] Validation-cross-entropy=0.000013
+2021-09-24 19:38:26,611 [INFO]  Epoch[10] Validation-type_employer-accuracy=1.000000
+2021-09-24 19:38:37,130 [INFO]  Epoch[11] Batch [0-865]	Speed: 1317.10 samples/sec	cross-entropy=0.000012	type_employer-accuracy=1.000000
+2021-09-24 19:38:48,010 [INFO]  Epoch[11] Train-cross-entropy=0.000011
+2021-09-24 19:38:48,011 [INFO]  Epoch[11] Train-type_employer-accuracy=1.000000
+2021-09-24 19:38:48,012 [INFO]  Epoch[11] Time cost=21.401
+2021-09-24 19:38:48,017 [INFO]  Saved checkpoint to "type_employer\model-0011.params"
+2021-09-24 19:38:48,860 [INFO]  Epoch[11] Validation-cross-entropy=0.000009
+2021-09-24 19:38:48,861 [INFO]  Epoch[11] Validation-type_employer-accuracy=1.000000
+2021-09-24 19:39:00,458 [INFO]  Epoch[12] Batch [0-865]	Speed: 1194.75 samples/sec	cross-entropy=0.000007	type_employer-accuracy=1.000000
+2021-09-24 19:39:11,434 [INFO]  Epoch[12] Train-cross-entropy=0.000006
+2021-09-24 19:39:11,436 [INFO]  Epoch[12] Train-type_employer-accuracy=1.000000
+2021-09-24 19:39:11,437 [INFO]  Epoch[12] Time cost=22.576
+2021-09-24 19:39:11,448 [INFO]  Saved checkpoint to "type_employer\model-0012.params"
+2021-09-24 19:39:12,858 [INFO]  Epoch[12] Validation-cross-entropy=0.000009
+2021-09-24 19:39:12,859 [INFO]  Epoch[12] Validation-type_employer-accuracy=1.000000
+2021-09-24 19:39:23,404 [INFO]  Epoch[13] Batch [0-865]	Speed: 1313.96 samples/sec	cross-entropy=0.000004	type_employer-accuracy=1.000000
+2021-09-24 19:39:34,470 [INFO]  Epoch[13] Train-cross-entropy=0.000004
+2021-09-24 19:39:34,470 [INFO]  Epoch[13] Train-type_employer-accuracy=1.000000
+2021-09-24 19:39:34,470 [INFO]  Epoch[13] Time cost=21.610
+2021-09-24 19:39:34,488 [INFO]  Saved checkpoint to "type_employer\model-0013.params"
+2021-09-24 19:39:35,344 [INFO]  Epoch[13] Validation-cross-entropy=0.000002
+2021-09-24 19:39:35,344 [INFO]  Epoch[13] Validation-type_employer-accuracy=1.000000
+2021-09-24 19:39:47,543 [INFO]  Epoch[14] Batch [0-865]	Speed: 1136.21 samples/sec	cross-entropy=0.000003	type_employer-accuracy=1.000000
+2021-09-24 19:39:58,926 [INFO]  Epoch[14] Train-cross-entropy=0.000003
+2021-09-24 19:39:58,927 [INFO]  Epoch[14] Train-type_employer-accuracy=1.000000
+2021-09-24 19:39:58,928 [INFO]  Epoch[14] Time cost=23.583
+2021-09-24 19:39:58,935 [INFO]  Saved checkpoint to "type_employer\model-0014.params"
+2021-09-24 19:39:59,857 [INFO]  Epoch[14] Validation-cross-entropy=0.000001
+2021-09-24 19:39:59,857 [INFO]  Epoch[14] Validation-type_employer-accuracy=1.000000
+2021-09-24 19:39:59,857 [INFO]  
+========== done (353.7922921180725 s) fit model
+2021-09-25 10:03:59,224 [INFO]  CategoricalEncoder for column type_employer                                found only 14 occurrences of value Without-pay
+2021-09-25 10:03:59,225 [INFO]  CategoricalEncoder for column type_employer                                found only 7 occurrences of value Never-worked
+2021-09-25 10:04:14,503 [WARNING]  Test set does not contain any ocurrences of values [Without-pay, Never-worked] in column [type_employer], consider using a more representative test set.
+2021-09-25 10:04:14,530 [INFO]  
+========== start: fit model
+2021-09-25 10:04:14,530 [WARNING]  Already bound, ignoring bind()
+2021-09-25 10:04:26,364 [INFO]  Epoch[0] Batch [0-865]	Speed: 1171.56 samples/sec	cross-entropy=0.400170	type_employer-accuracy=0.880990
+2021-09-25 10:04:38,050 [INFO]  Epoch[0] Train-cross-entropy=0.244603
+2021-09-25 10:04:38,051 [INFO]  Epoch[0] Train-type_employer-accuracy=0.938115
+2021-09-25 10:04:38,052 [INFO]  Epoch[0] Time cost=23.519
+2021-09-25 10:04:38,059 [INFO]  Saved checkpoint to "type_employer\model-0000.params"
+2021-09-25 10:04:39,116 [INFO]  Epoch[0] Validation-cross-entropy=0.050925
+2021-09-25 10:04:39,117 [INFO]  Epoch[0] Validation-type_employer-accuracy=0.998698
+2021-09-25 10:04:50,935 [INFO]  Epoch[1] Batch [0-865]	Speed: 1172.28 samples/sec	cross-entropy=0.039103	type_employer-accuracy=0.998773
+2021-09-25 10:05:02,416 [INFO]  Epoch[1] Train-cross-entropy=0.029717
+2021-09-25 10:05:02,416 [INFO]  Epoch[1] Train-type_employer-accuracy=0.999060
+2021-09-25 10:05:02,417 [INFO]  Epoch[1] Time cost=23.300
+2021-09-25 10:05:02,422 [INFO]  Saved checkpoint to "type_employer\model-0001.params"
+2021-09-25 10:05:03,439 [INFO]  Epoch[1] Validation-cross-entropy=0.014213
+2021-09-25 10:05:03,440 [INFO]  Epoch[1] Validation-type_employer-accuracy=1.000000
+2021-09-25 10:05:15,330 [INFO]  Epoch[2] Batch [0-865]	Speed: 1165.30 samples/sec	cross-entropy=0.012315	type_employer-accuracy=0.999350
+2021-09-25 10:05:27,126 [INFO]  Epoch[2] Train-cross-entropy=0.009793
+2021-09-25 10:05:27,127 [INFO]  Epoch[2] Train-type_employer-accuracy=0.999566
+2021-09-25 10:05:27,127 [INFO]  Epoch[2] Time cost=23.686
+2021-09-25 10:05:27,134 [INFO]  Saved checkpoint to "type_employer\model-0002.params"
+2021-09-25 10:05:28,623 [INFO]  Epoch[2] Validation-cross-entropy=0.005530
+2021-09-25 10:05:28,625 [INFO]  Epoch[2] Validation-type_employer-accuracy=1.000000
+2021-09-25 10:05:41,183 [INFO]  Epoch[3] Batch [0-865]	Speed: 1104.43 samples/sec	cross-entropy=0.004723	type_employer-accuracy=0.999856
+2021-09-25 10:05:53,807 [INFO]  Epoch[3] Train-cross-entropy=0.003818
+2021-09-25 10:05:53,808 [INFO]  Epoch[3] Train-type_employer-accuracy=0.999928
+2021-09-25 10:05:53,808 [INFO]  Epoch[3] Time cost=25.181
+2021-09-25 10:05:53,816 [INFO]  Saved checkpoint to "type_employer\model-0003.params"
+2021-09-25 10:05:54,736 [INFO]  Epoch[3] Validation-cross-entropy=0.002317
+2021-09-25 10:05:54,737 [INFO]  Epoch[3] Validation-type_employer-accuracy=1.000000
+2021-09-25 10:06:05,979 [INFO]  Epoch[4] Batch [0-865]	Speed: 1232.23 samples/sec	cross-entropy=0.001969	type_employer-accuracy=1.000000
+2021-09-25 10:06:18,338 [INFO]  Epoch[4] Train-cross-entropy=0.001611
+2021-09-25 10:06:18,338 [INFO]  Epoch[4] Train-type_employer-accuracy=1.000000
+2021-09-25 10:06:18,339 [INFO]  Epoch[4] Time cost=23.603
+2021-09-25 10:06:18,345 [INFO]  Saved checkpoint to "type_employer\model-0004.params"
+2021-09-25 10:06:19,451 [INFO]  Epoch[4] Validation-cross-entropy=0.001016
+2021-09-25 10:06:19,451 [INFO]  Epoch[4] Validation-type_employer-accuracy=1.000000
+2021-09-25 10:06:33,089 [INFO]  Epoch[5] Batch [0-865]	Speed: 1016.51 samples/sec	cross-entropy=0.000858	type_employer-accuracy=1.000000
+2021-09-25 10:06:46,581 [INFO]  Epoch[5] Train-cross-entropy=0.000708
+2021-09-25 10:06:46,581 [INFO]  Epoch[5] Train-type_employer-accuracy=1.000000
+2021-09-25 10:06:46,582 [INFO]  Epoch[5] Time cost=27.129
+2021-09-25 10:06:46,587 [INFO]  Saved checkpoint to "type_employer\model-0005.params"
+2021-09-25 10:06:48,490 [INFO]  Epoch[5] Validation-cross-entropy=0.000450
+2021-09-25 10:06:48,491 [INFO]  Epoch[5] Validation-type_employer-accuracy=1.000000
+2021-09-25 10:07:00,603 [INFO]  Epoch[6] Batch [0-865]	Speed: 1143.69 samples/sec	cross-entropy=0.000385	type_employer-accuracy=1.000000
+2021-09-25 10:07:12,369 [INFO]  Epoch[6] Train-cross-entropy=0.000320
+2021-09-25 10:07:12,371 [INFO]  Epoch[6] Train-type_employer-accuracy=1.000000
+2021-09-25 10:07:12,372 [INFO]  Epoch[6] Time cost=23.880
+2021-09-25 10:07:12,382 [INFO]  Saved checkpoint to "type_employer\model-0006.params"
+2021-09-25 10:07:13,520 [INFO]  Epoch[6] Validation-cross-entropy=0.000206
+2021-09-25 10:07:13,521 [INFO]  Epoch[6] Validation-type_employer-accuracy=1.000000
+2021-09-25 10:07:25,403 [INFO]  Epoch[7] Batch [0-865]	Speed: 1165.77 samples/sec	cross-entropy=0.000178	type_employer-accuracy=1.000000
+2021-09-25 10:07:37,423 [INFO]  Epoch[7] Train-cross-entropy=0.000149
+2021-09-25 10:07:37,423 [INFO]  Epoch[7] Train-type_employer-accuracy=1.000000
+2021-09-25 10:07:37,424 [INFO]  Epoch[7] Time cost=23.903
+2021-09-25 10:07:37,431 [INFO]  Saved checkpoint to "type_employer\model-0007.params"
+2021-09-25 10:07:38,446 [INFO]  Epoch[7] Validation-cross-entropy=0.000098
+2021-09-25 10:07:38,447 [INFO]  Epoch[7] Validation-type_employer-accuracy=1.000000
+2021-09-25 10:07:53,483 [INFO]  Epoch[8] Batch [0-865]	Speed: 921.25 samples/sec	cross-entropy=0.000085	type_employer-accuracy=1.000000
+2021-09-25 10:08:10,006 [INFO]  Epoch[8] Train-cross-entropy=0.000072
+2021-09-25 10:08:10,007 [INFO]  Epoch[8] Train-type_employer-accuracy=1.000000
+2021-09-25 10:08:10,007 [INFO]  Epoch[8] Time cost=31.559
+2021-09-25 10:08:10,013 [INFO]  Saved checkpoint to "type_employer\model-0008.params"
+2021-09-25 10:08:11,523 [INFO]  Epoch[8] Validation-cross-entropy=0.000049
+2021-09-25 10:08:11,525 [INFO]  Epoch[8] Validation-type_employer-accuracy=1.000000
+2021-09-25 10:08:24,095 [INFO]  Epoch[9] Batch [0-865]	Speed: 1102.97 samples/sec	cross-entropy=0.000043	type_employer-accuracy=1.000000
+2021-09-25 10:08:36,446 [INFO]  Epoch[9] Train-cross-entropy=0.000037
+2021-09-25 10:08:36,448 [INFO]  Epoch[9] Train-type_employer-accuracy=1.000000
+2021-09-25 10:08:36,449 [INFO]  Epoch[9] Time cost=24.924
+2021-09-25 10:08:36,459 [INFO]  Saved checkpoint to "type_employer\model-0009.params"
+2021-09-25 10:08:37,503 [INFO]  Epoch[9] Validation-cross-entropy=0.000026
+2021-09-25 10:08:37,504 [INFO]  Epoch[9] Validation-type_employer-accuracy=1.000000
+2021-09-25 10:08:49,683 [INFO]  Epoch[10] Batch [0-865]	Speed: 1137.59 samples/sec	cross-entropy=0.000023	type_employer-accuracy=1.000000
+2021-09-25 10:09:01,541 [INFO]  Epoch[10] Train-cross-entropy=0.000020
+2021-09-25 10:09:01,542 [INFO]  Epoch[10] Train-type_employer-accuracy=1.000000
+2021-09-25 10:09:01,542 [INFO]  Epoch[10] Time cost=24.037
+2021-09-25 10:09:01,548 [INFO]  Saved checkpoint to "type_employer\model-0010.params"
+2021-09-25 10:09:02,659 [INFO]  Epoch[10] Validation-cross-entropy=0.000018
+2021-09-25 10:09:02,661 [INFO]  Epoch[10] Validation-type_employer-accuracy=1.000000
+2021-09-25 10:09:14,569 [INFO]  Epoch[11] Batch [0-865]	Speed: 1164.49 samples/sec	cross-entropy=0.000013	type_employer-accuracy=1.000000
+2021-09-25 10:09:26,188 [INFO]  Epoch[11] Train-cross-entropy=0.000012
+2021-09-25 10:09:26,188 [INFO]  Epoch[11] Train-type_employer-accuracy=1.000000
+2021-09-25 10:09:26,189 [INFO]  Epoch[11] Time cost=23.527
+2021-09-25 10:09:26,195 [INFO]  Saved checkpoint to "type_employer\model-0011.params"
+2021-09-25 10:09:27,754 [INFO]  Epoch[11] Validation-cross-entropy=0.000009
+2021-09-25 10:09:27,756 [INFO]  Epoch[11] Validation-type_employer-accuracy=1.000000
+2021-09-25 10:09:39,359 [INFO]  Epoch[12] Batch [0-865]	Speed: 1195.38 samples/sec	cross-entropy=0.000007	type_employer-accuracy=1.000000
+2021-09-25 10:09:53,540 [INFO]  Epoch[12] Train-cross-entropy=0.000007
+2021-09-25 10:09:53,541 [INFO]  Epoch[12] Train-type_employer-accuracy=1.000000
+2021-09-25 10:09:53,541 [INFO]  Epoch[12] Time cost=25.784
+2021-09-25 10:09:53,549 [INFO]  Saved checkpoint to "type_employer\model-0012.params"
+2021-09-25 10:09:54,931 [INFO]  Epoch[12] Validation-cross-entropy=0.000028
+2021-09-25 10:09:54,933 [INFO]  Epoch[12] Validation-type_employer-accuracy=1.000000
+2021-09-25 10:10:08,284 [INFO]  Epoch[13] Batch [0-865]	Speed: 1038.32 samples/sec	cross-entropy=0.000006	type_employer-accuracy=1.000000
+2021-09-25 10:10:21,139 [INFO]  Epoch[13] Train-cross-entropy=0.000004
+2021-09-25 10:10:21,139 [INFO]  Epoch[13] Train-type_employer-accuracy=1.000000
+2021-09-25 10:10:21,140 [INFO]  Epoch[13] Time cost=26.205
+2021-09-25 10:10:21,146 [INFO]  Saved checkpoint to "type_employer\model-0013.params"
+2021-09-25 10:10:22,528 [INFO]  Epoch[13] Validation-cross-entropy=0.000002
+2021-09-25 10:10:22,530 [INFO]  Epoch[13] Validation-type_employer-accuracy=1.000000
+2021-09-25 10:10:34,324 [INFO]  Epoch[14] Batch [0-865]	Speed: 1175.54 samples/sec	cross-entropy=0.000002	type_employer-accuracy=1.000000
+2021-09-25 10:10:46,053 [INFO]  Epoch[14] Train-cross-entropy=0.000002
+2021-09-25 10:10:46,054 [INFO]  Epoch[14] Train-type_employer-accuracy=1.000000
+2021-09-25 10:10:46,054 [INFO]  Epoch[14] Time cost=23.523
+2021-09-25 10:10:46,061 [INFO]  Saved checkpoint to "type_employer\model-0014.params"
+2021-09-25 10:10:47,907 [INFO]  Epoch[14] Validation-cross-entropy=0.000002
+2021-09-25 10:10:47,907 [INFO]  Epoch[14] Validation-type_employer-accuracy=1.000000
+2021-09-25 10:10:47,908 [INFO]  
+========== done (393.37868666648865 s) fit model
+2021-09-26 00:54:17,907 [INFO]  CategoricalEncoder for column type_employer                                found only 14 occurrences of value Without-pay
+2021-09-26 00:54:17,921 [INFO]  CategoricalEncoder for column type_employer                                found only 7 occurrences of value Never-worked
+2021-09-26 00:54:33,872 [WARNING]  Test set does not contain any ocurrences of values [Never-worked, Without-pay] in column [type_employer], consider using a more representative test set.
+2021-09-26 00:54:33,917 [INFO]  
+========== start: fit model
+2021-09-26 00:54:33,919 [WARNING]  Already bound, ignoring bind()
+2021-09-26 00:54:44,167 [INFO]  Epoch[0] Batch [0-865]	Speed: 1355.70 samples/sec	cross-entropy=0.397547	type_employer-accuracy=0.882289
+2021-09-26 00:54:54,691 [INFO]  Epoch[0] Train-cross-entropy=0.242734
+2021-09-26 00:54:54,691 [INFO]  Epoch[0] Train-type_employer-accuracy=0.938765
+2021-09-26 00:54:54,691 [INFO]  Epoch[0] Time cost=20.767
+2021-09-26 00:54:54,749 [INFO]  Saved checkpoint to "type_employer\model-0000.params"
+2021-09-26 00:54:55,783 [INFO]  Epoch[0] Validation-cross-entropy=0.050253
+2021-09-26 00:54:55,783 [INFO]  Epoch[0] Validation-type_employer-accuracy=0.998698
+2021-09-26 00:55:05,630 [INFO]  Epoch[1] Batch [0-865]	Speed: 1407.64 samples/sec	cross-entropy=0.038667	type_employer-accuracy=0.998773
+2021-09-26 00:55:14,814 [INFO]  Epoch[1] Train-cross-entropy=0.029397
+2021-09-26 00:55:14,815 [INFO]  Epoch[1] Train-type_employer-accuracy=0.999060
+2021-09-26 00:55:14,815 [INFO]  Epoch[1] Time cost=19.033
+2021-09-26 00:55:14,821 [INFO]  Saved checkpoint to "type_employer\model-0001.params"
+2021-09-26 00:55:16,411 [INFO]  Epoch[1] Validation-cross-entropy=0.014043
+2021-09-26 00:55:16,412 [INFO]  Epoch[1] Validation-type_employer-accuracy=1.000000
+2021-09-26 00:55:25,896 [INFO]  Epoch[2] Batch [0-865]	Speed: 1462.28 samples/sec	cross-entropy=0.012167	type_employer-accuracy=0.999350
+2021-09-26 00:55:35,537 [INFO]  Epoch[2] Train-cross-entropy=0.009676
+2021-09-26 00:55:35,537 [INFO]  Epoch[2] Train-type_employer-accuracy=0.999566
+2021-09-26 00:55:35,537 [INFO]  Epoch[2] Time cost=19.124
+2021-09-26 00:55:35,551 [INFO]  Saved checkpoint to "type_employer\model-0002.params"
+2021-09-26 00:55:36,582 [INFO]  Epoch[2] Validation-cross-entropy=0.005468
+2021-09-26 00:55:36,582 [INFO]  Epoch[2] Validation-type_employer-accuracy=1.000000
+2021-09-26 00:55:46,970 [INFO]  Epoch[3] Batch [0-865]	Speed: 1336.76 samples/sec	cross-entropy=0.004684	type_employer-accuracy=0.999856
+2021-09-26 00:55:57,049 [INFO]  Epoch[3] Train-cross-entropy=0.003783
+2021-09-26 00:55:57,050 [INFO]  Epoch[3] Train-type_employer-accuracy=0.999928
+2021-09-26 00:55:57,050 [INFO]  Epoch[3] Time cost=20.467
+2021-09-26 00:55:57,056 [INFO]  Saved checkpoint to "type_employer\model-0003.params"
+2021-09-26 00:55:58,299 [INFO]  Epoch[3] Validation-cross-entropy=0.002269
+2021-09-26 00:55:58,299 [INFO]  Epoch[3] Validation-type_employer-accuracy=1.000000
+2021-09-26 00:56:07,916 [INFO]  Epoch[4] Batch [0-865]	Speed: 1443.86 samples/sec	cross-entropy=0.001948	type_employer-accuracy=1.000000
+2021-09-26 00:56:17,532 [INFO]  Epoch[4] Train-cross-entropy=0.001594
+2021-09-26 00:56:17,532 [INFO]  Epoch[4] Train-type_employer-accuracy=1.000000
+2021-09-26 00:56:17,533 [INFO]  Epoch[4] Time cost=19.234
+2021-09-26 00:56:17,538 [INFO]  Saved checkpoint to "type_employer\model-0004.params"
+2021-09-26 00:56:18,345 [INFO]  Epoch[4] Validation-cross-entropy=0.000993
+2021-09-26 00:56:18,346 [INFO]  Epoch[4] Validation-type_employer-accuracy=1.000000
+2021-09-26 00:56:28,375 [INFO]  Epoch[5] Batch [0-865]	Speed: 1381.53 samples/sec	cross-entropy=0.000853	type_employer-accuracy=1.000000
+2021-09-26 00:56:38,196 [INFO]  Epoch[5] Train-cross-entropy=0.000703
+2021-09-26 00:56:38,196 [INFO]  Epoch[5] Train-type_employer-accuracy=1.000000
+2021-09-26 00:56:38,196 [INFO]  Epoch[5] Time cost=19.849
+2021-09-26 00:56:38,219 [INFO]  Saved checkpoint to "type_employer\model-0005.params"
+2021-09-26 00:56:39,158 [INFO]  Epoch[5] Validation-cross-entropy=0.000444
+2021-09-26 00:56:39,158 [INFO]  Epoch[5] Validation-type_employer-accuracy=1.000000
+2021-09-26 00:56:48,633 [INFO]  Epoch[6] Batch [0-865]	Speed: 1463.20 samples/sec	cross-entropy=0.000381	type_employer-accuracy=1.000000
+2021-09-26 00:56:58,214 [INFO]  Epoch[6] Train-cross-entropy=0.000317
+2021-09-26 00:56:58,214 [INFO]  Epoch[6] Train-type_employer-accuracy=1.000000
+2021-09-26 00:56:58,214 [INFO]  Epoch[6] Time cost=19.057
+2021-09-26 00:56:58,235 [INFO]  Saved checkpoint to "type_employer\model-0006.params"
+2021-09-26 00:56:59,778 [INFO]  Epoch[6] Validation-cross-entropy=0.000205
+2021-09-26 00:56:59,778 [INFO]  Epoch[6] Validation-type_employer-accuracy=1.000000
+2021-09-26 00:57:09,530 [INFO]  Epoch[7] Batch [0-865]	Speed: 1423.12 samples/sec	cross-entropy=0.000177	type_employer-accuracy=1.000000
+2021-09-26 00:57:19,111 [INFO]  Epoch[7] Train-cross-entropy=0.000148
+2021-09-26 00:57:19,112 [INFO]  Epoch[7] Train-type_employer-accuracy=1.000000
+2021-09-26 00:57:19,113 [INFO]  Epoch[7] Time cost=19.334
+2021-09-26 00:57:19,118 [INFO]  Saved checkpoint to "type_employer\model-0007.params"
+2021-09-26 00:57:20,310 [INFO]  Epoch[7] Validation-cross-entropy=0.000097
+2021-09-26 00:57:20,311 [INFO]  Epoch[7] Validation-type_employer-accuracy=1.000000
+2021-09-26 00:57:30,549 [INFO]  Epoch[8] Batch [0-865]	Speed: 1354.39 samples/sec	cross-entropy=0.000085	type_employer-accuracy=1.000000
+2021-09-26 00:57:40,124 [INFO]  Epoch[8] Train-cross-entropy=0.000072
+2021-09-26 00:57:40,124 [INFO]  Epoch[8] Train-type_employer-accuracy=1.000000
+2021-09-26 00:57:40,124 [INFO]  Epoch[8] Time cost=19.812
+2021-09-26 00:57:40,137 [INFO]  Saved checkpoint to "type_employer\model-0008.params"
+2021-09-26 00:57:41,012 [INFO]  Epoch[8] Validation-cross-entropy=0.000049
+2021-09-26 00:57:41,012 [INFO]  Epoch[8] Validation-type_employer-accuracy=1.000000
+2021-09-26 00:57:50,904 [INFO]  Epoch[9] Batch [0-865]	Speed: 1401.71 samples/sec	cross-entropy=0.000042	type_employer-accuracy=1.000000
+2021-09-26 00:58:01,180 [INFO]  Epoch[9] Train-cross-entropy=0.000036
+2021-09-26 00:58:01,180 [INFO]  Epoch[9] Train-type_employer-accuracy=1.000000
+2021-09-26 00:58:01,180 [INFO]  Epoch[9] Time cost=20.168
+2021-09-26 00:58:01,188 [INFO]  Saved checkpoint to "type_employer\model-0009.params"
+2021-09-26 00:58:02,041 [INFO]  Epoch[9] Validation-cross-entropy=0.000026
+2021-09-26 00:58:02,041 [INFO]  Epoch[9] Validation-type_employer-accuracy=1.000000
+2021-09-26 00:58:12,640 [INFO]  Epoch[10] Batch [0-865]	Speed: 1308.06 samples/sec	cross-entropy=0.000023	type_employer-accuracy=1.000000
+2021-09-26 00:58:22,497 [INFO]  Epoch[10] Train-cross-entropy=0.000019
+2021-09-26 00:58:22,498 [INFO]  Epoch[10] Train-type_employer-accuracy=1.000000
+2021-09-26 00:58:22,499 [INFO]  Epoch[10] Time cost=20.458
+2021-09-26 00:58:22,504 [INFO]  Saved checkpoint to "type_employer\model-0010.params"
+2021-09-26 00:58:23,330 [INFO]  Epoch[10] Validation-cross-entropy=0.000015
+2021-09-26 00:58:23,330 [INFO]  Epoch[10] Validation-type_employer-accuracy=1.000000
+2021-09-26 00:58:33,361 [INFO]  Epoch[11] Batch [0-865]	Speed: 1381.33 samples/sec	cross-entropy=0.000013	type_employer-accuracy=1.000000
+2021-09-26 00:58:43,338 [INFO]  Epoch[11] Train-cross-entropy=0.000012
+2021-09-26 00:58:43,338 [INFO]  Epoch[11] Train-type_employer-accuracy=1.000000
+2021-09-26 00:58:43,338 [INFO]  Epoch[11] Time cost=20.007
+2021-09-26 00:58:43,360 [INFO]  Saved checkpoint to "type_employer\model-0011.params"
+2021-09-26 00:58:44,357 [INFO]  Epoch[11] Validation-cross-entropy=0.000010
+2021-09-26 00:58:44,357 [INFO]  Epoch[11] Validation-type_employer-accuracy=1.000000
+2021-09-26 00:58:53,765 [INFO]  Epoch[12] Batch [0-865]	Speed: 1474.79 samples/sec	cross-entropy=0.000007	type_employer-accuracy=1.000000
+2021-09-26 00:59:03,357 [INFO]  Epoch[12] Train-cross-entropy=0.000007
+2021-09-26 00:59:03,357 [INFO]  Epoch[12] Train-type_employer-accuracy=1.000000
+2021-09-26 00:59:03,357 [INFO]  Epoch[12] Time cost=19.000
+2021-09-26 00:59:03,418 [INFO]  Saved checkpoint to "type_employer\model-0012.params"
+2021-09-26 00:59:04,977 [INFO]  Epoch[12] Validation-cross-entropy=0.000012
+2021-09-26 00:59:04,977 [INFO]  Epoch[12] Validation-type_employer-accuracy=1.000000
+2021-09-26 00:59:14,601 [INFO]  Epoch[13] Batch [0-865]	Speed: 1443.64 samples/sec	cross-entropy=0.000005	type_employer-accuracy=1.000000
+2021-09-26 00:59:24,259 [INFO]  Epoch[13] Train-cross-entropy=0.000004
+2021-09-26 00:59:24,259 [INFO]  Epoch[13] Train-type_employer-accuracy=1.000000
+2021-09-26 00:59:24,260 [INFO]  Epoch[13] Time cost=19.267
+2021-09-26 00:59:24,266 [INFO]  Saved checkpoint to "type_employer\model-0013.params"
+2021-09-26 00:59:25,352 [INFO]  Epoch[13] Validation-cross-entropy=0.000002
+2021-09-26 00:59:25,353 [INFO]  Epoch[13] Validation-type_employer-accuracy=1.000000
+2021-09-26 00:59:35,712 [INFO]  Epoch[14] Batch [0-865]	Speed: 1339.18 samples/sec	cross-entropy=0.000002	type_employer-accuracy=1.000000
+2021-09-26 00:59:45,282 [INFO]  Epoch[14] Train-cross-entropy=0.000002
+2021-09-26 00:59:45,282 [INFO]  Epoch[14] Train-type_employer-accuracy=1.000000
+2021-09-26 00:59:45,282 [INFO]  Epoch[14] Time cost=19.928
+2021-09-26 00:59:45,289 [INFO]  Saved checkpoint to "type_employer\model-0014.params"
+2021-09-26 00:59:46,104 [INFO]  Epoch[14] Validation-cross-entropy=0.000001
+2021-09-26 00:59:46,104 [INFO]  Epoch[14] Validation-type_employer-accuracy=1.000000
+2021-09-26 00:59:46,104 [INFO]  
+========== done (312.1866948604584 s) fit model
+2021-09-26 19:49:14,362 [INFO]  CategoricalEncoder for column type_employer                                found only 14 occurrences of value Without-pay
+2021-09-26 19:49:14,386 [INFO]  CategoricalEncoder for column type_employer                                found only 7 occurrences of value Never-worked
+2021-09-26 19:49:29,482 [WARNING]  Test set does not contain any ocurrences of values [Without-pay, Never-worked] in column [type_employer], consider using a more representative test set.
+2021-09-26 19:49:29,524 [INFO]  
+========== start: fit model
+2021-09-26 19:49:29,525 [WARNING]  Already bound, ignoring bind()
+2021-09-26 19:49:38,170 [INFO]  Epoch[0] Batch [0-865]	Speed: 1610.05 samples/sec	cross-entropy=0.398491	type_employer-accuracy=0.881712
+2021-09-26 19:49:47,517 [INFO]  Epoch[0] Train-cross-entropy=0.243386
+2021-09-26 19:49:47,517 [INFO]  Epoch[0] Train-type_employer-accuracy=0.938476
+2021-09-26 19:49:47,517 [INFO]  Epoch[0] Time cost=17.990
+2021-09-26 19:49:47,567 [INFO]  Saved checkpoint to "type_employer\model-0000.params"
+2021-09-26 19:49:48,333 [INFO]  Epoch[0] Validation-cross-entropy=0.050481
+2021-09-26 19:49:48,333 [INFO]  Epoch[0] Validation-type_employer-accuracy=0.998698
+2021-09-26 19:49:57,498 [INFO]  Epoch[1] Batch [0-865]	Speed: 1512.50 samples/sec	cross-entropy=0.038800	type_employer-accuracy=0.998773
+2021-09-26 19:50:07,988 [INFO]  Epoch[1] Train-cross-entropy=0.029492
+2021-09-26 19:50:07,988 [INFO]  Epoch[1] Train-type_employer-accuracy=0.999060
+2021-09-26 19:50:07,989 [INFO]  Epoch[1] Time cost=19.656
+2021-09-26 19:50:07,994 [INFO]  Saved checkpoint to "type_employer\model-0001.params"
+2021-09-26 19:50:09,148 [INFO]  Epoch[1] Validation-cross-entropy=0.014094
+2021-09-26 19:50:09,150 [INFO]  Epoch[1] Validation-type_employer-accuracy=1.000000
+2021-09-26 19:50:19,541 [INFO]  Epoch[2] Batch [0-865]	Speed: 1334.99 samples/sec	cross-entropy=0.012187	type_employer-accuracy=0.999350
+2021-09-26 19:50:31,069 [INFO]  Epoch[2] Train-cross-entropy=0.009692
+2021-09-26 19:50:31,070 [INFO]  Epoch[2] Train-type_employer-accuracy=0.999566
+2021-09-26 19:50:31,071 [INFO]  Epoch[2] Time cost=21.920
+2021-09-26 19:50:31,081 [INFO]  Saved checkpoint to "type_employer\model-0002.params"
+2021-09-26 19:50:32,077 [INFO]  Epoch[2] Validation-cross-entropy=0.005481
+2021-09-26 19:50:32,077 [INFO]  Epoch[2] Validation-type_employer-accuracy=1.000000
+2021-09-26 19:50:43,653 [INFO]  Epoch[3] Batch [0-865]	Speed: 1196.70 samples/sec	cross-entropy=0.004683	type_employer-accuracy=0.999856
+2021-09-26 19:50:54,592 [INFO]  Epoch[3] Train-cross-entropy=0.003784
+2021-09-26 19:50:54,593 [INFO]  Epoch[3] Train-type_employer-accuracy=0.999928
+2021-09-26 19:50:54,595 [INFO]  Epoch[3] Time cost=22.517
+2021-09-26 19:50:54,606 [INFO]  Saved checkpoint to "type_employer\model-0003.params"
+2021-09-26 19:50:56,109 [INFO]  Epoch[3] Validation-cross-entropy=0.002309
+2021-09-26 19:50:56,111 [INFO]  Epoch[3] Validation-type_employer-accuracy=1.000000
+2021-09-26 19:51:07,367 [INFO]  Epoch[4] Batch [0-865]	Speed: 1230.70 samples/sec	cross-entropy=0.001954	type_employer-accuracy=1.000000
+2021-09-26 19:51:18,256 [INFO]  Epoch[4] Train-cross-entropy=0.001597
+2021-09-26 19:51:18,257 [INFO]  Epoch[4] Train-type_employer-accuracy=1.000000
+2021-09-26 19:51:18,258 [INFO]  Epoch[4] Time cost=22.147
+2021-09-26 19:51:18,263 [INFO]  Saved checkpoint to "type_employer\model-0004.params"
+2021-09-26 19:51:20,066 [INFO]  Epoch[4] Validation-cross-entropy=0.000989
+2021-09-26 19:51:20,066 [INFO]  Epoch[4] Validation-type_employer-accuracy=1.000000
+2021-09-26 19:51:30,887 [INFO]  Epoch[5] Batch [0-865]	Speed: 1280.40 samples/sec	cross-entropy=0.000849	type_employer-accuracy=1.000000
+2021-09-26 19:51:42,857 [INFO]  Epoch[5] Train-cross-entropy=0.000700
+2021-09-26 19:51:42,858 [INFO]  Epoch[5] Train-type_employer-accuracy=1.000000
+2021-09-26 19:51:42,859 [INFO]  Epoch[5] Time cost=22.792
+2021-09-26 19:51:42,870 [INFO]  Saved checkpoint to "type_employer\model-0005.params"
+2021-09-26 19:51:44,591 [INFO]  Epoch[5] Validation-cross-entropy=0.000445
+2021-09-26 19:51:44,591 [INFO]  Epoch[5] Validation-type_employer-accuracy=1.000000
+2021-09-26 19:51:55,839 [INFO]  Epoch[6] Batch [0-865]	Speed: 1231.74 samples/sec	cross-entropy=0.000382	type_employer-accuracy=1.000000
+2021-09-26 19:52:06,745 [INFO]  Epoch[6] Train-cross-entropy=0.000317
+2021-09-26 19:52:06,745 [INFO]  Epoch[6] Train-type_employer-accuracy=1.000000
+2021-09-26 19:52:06,746 [INFO]  Epoch[6] Time cost=22.154
+2021-09-26 19:52:06,752 [INFO]  Saved checkpoint to "type_employer\model-0006.params"
+2021-09-26 19:52:08,427 [INFO]  Epoch[6] Validation-cross-entropy=0.000207
+2021-09-26 19:52:08,428 [INFO]  Epoch[6] Validation-type_employer-accuracy=1.000000
+2021-09-26 19:52:19,631 [INFO]  Epoch[7] Batch [0-865]	Speed: 1238.24 samples/sec	cross-entropy=0.000177	type_employer-accuracy=1.000000
+2021-09-26 19:52:31,184 [INFO]  Epoch[7] Train-cross-entropy=0.000148
+2021-09-26 19:52:31,184 [INFO]  Epoch[7] Train-type_employer-accuracy=1.000000
+2021-09-26 19:52:31,185 [INFO]  Epoch[7] Time cost=22.755
+2021-09-26 19:52:31,191 [INFO]  Saved checkpoint to "type_employer\model-0007.params"
+2021-09-26 19:52:33,066 [INFO]  Epoch[7] Validation-cross-entropy=0.000099
+2021-09-26 19:52:33,067 [INFO]  Epoch[7] Validation-type_employer-accuracy=1.000000
+2021-09-26 19:52:44,213 [INFO]  Epoch[8] Batch [0-865]	Speed: 1243.03 samples/sec	cross-entropy=0.000085	type_employer-accuracy=1.000000
+2021-09-26 19:52:55,363 [INFO]  Epoch[8] Train-cross-entropy=0.000072
+2021-09-26 19:52:55,364 [INFO]  Epoch[8] Train-type_employer-accuracy=1.000000
+2021-09-26 19:52:55,364 [INFO]  Epoch[8] Time cost=22.296
+2021-09-26 19:52:55,371 [INFO]  Saved checkpoint to "type_employer\model-0008.params"
+2021-09-26 19:52:57,006 [INFO]  Epoch[8] Validation-cross-entropy=0.000048
+2021-09-26 19:52:57,008 [INFO]  Epoch[8] Validation-type_employer-accuracy=1.000000
+2021-09-26 19:53:08,248 [INFO]  Epoch[9] Batch [0-865]	Speed: 1234.07 samples/sec	cross-entropy=0.000042	type_employer-accuracy=1.000000
+2021-09-26 19:53:19,737 [INFO]  Epoch[9] Train-cross-entropy=0.000036
+2021-09-26 19:53:19,738 [INFO]  Epoch[9] Train-type_employer-accuracy=1.000000
+2021-09-26 19:53:19,738 [INFO]  Epoch[9] Time cost=22.729
+2021-09-26 19:53:19,747 [INFO]  Saved checkpoint to "type_employer\model-0009.params"
+2021-09-26 19:53:21,250 [INFO]  Epoch[9] Validation-cross-entropy=0.000025
+2021-09-26 19:53:21,251 [INFO]  Epoch[9] Validation-type_employer-accuracy=1.000000
+2021-09-26 19:53:32,374 [INFO]  Epoch[10] Batch [0-865]	Speed: 1246.65 samples/sec	cross-entropy=0.000023	type_employer-accuracy=1.000000
+2021-09-26 19:53:43,907 [INFO]  Epoch[10] Train-cross-entropy=0.000020
+2021-09-26 19:53:43,908 [INFO]  Epoch[10] Train-type_employer-accuracy=1.000000
+2021-09-26 19:53:43,908 [INFO]  Epoch[10] Time cost=22.656
+2021-09-26 19:53:43,932 [INFO]  Saved checkpoint to "type_employer\model-0010.params"
+2021-09-26 19:53:45,016 [INFO]  Epoch[10] Validation-cross-entropy=0.000015
+2021-09-26 19:53:45,017 [INFO]  Epoch[10] Validation-type_employer-accuracy=1.000000
+2021-09-26 19:53:56,482 [INFO]  Epoch[11] Batch [0-865]	Speed: 1209.79 samples/sec	cross-entropy=0.000012	type_employer-accuracy=1.000000
+2021-09-26 19:54:06,967 [INFO]  Epoch[11] Train-cross-entropy=0.000011
+2021-09-26 19:54:06,967 [INFO]  Epoch[11] Train-type_employer-accuracy=1.000000
+2021-09-26 19:54:06,967 [INFO]  Epoch[11] Time cost=21.949
+2021-09-26 19:54:06,981 [INFO]  Saved checkpoint to "type_employer\model-0011.params"
+2021-09-26 19:54:08,029 [INFO]  Epoch[11] Validation-cross-entropy=0.000017
+2021-09-26 19:54:08,030 [INFO]  Epoch[11] Validation-type_employer-accuracy=1.000000
+2021-09-26 19:54:17,546 [INFO]  Epoch[12] Batch [0-865]	Speed: 1456.10 samples/sec	cross-entropy=0.000008	type_employer-accuracy=1.000000
+2021-09-26 19:54:27,125 [INFO]  Epoch[12] Train-cross-entropy=0.000007
+2021-09-26 19:54:27,125 [INFO]  Epoch[12] Train-type_employer-accuracy=1.000000
+2021-09-26 19:54:27,126 [INFO]  Epoch[12] Time cost=19.095
+2021-09-26 19:54:27,131 [INFO]  Saved checkpoint to "type_employer\model-0012.params"
+2021-09-26 19:54:28,609 [INFO]  Epoch[12] Validation-cross-entropy=0.000050
+2021-09-26 19:54:28,611 [INFO]  Epoch[12] Validation-type_employer-accuracy=1.000000
+2021-09-26 19:54:38,201 [INFO]  Epoch[13] Batch [0-865]	Speed: 1446.35 samples/sec	cross-entropy=0.000005	type_employer-accuracy=1.000000
+2021-09-26 19:54:47,699 [INFO]  Epoch[13] Train-cross-entropy=0.000004
+2021-09-26 19:54:47,699 [INFO]  Epoch[13] Train-type_employer-accuracy=1.000000
+2021-09-26 19:54:47,700 [INFO]  Epoch[13] Time cost=19.088
+2021-09-26 19:54:47,706 [INFO]  Saved checkpoint to "type_employer\model-0013.params"
+2021-09-26 19:54:48,516 [INFO]  Epoch[13] Validation-cross-entropy=0.000003
+2021-09-26 19:54:48,517 [INFO]  Epoch[13] Validation-type_employer-accuracy=1.000000
+2021-09-26 19:54:59,209 [INFO]  Epoch[14] Batch [0-865]	Speed: 1295.85 samples/sec	cross-entropy=0.000002	type_employer-accuracy=1.000000
+2021-09-26 19:55:08,795 [INFO]  Epoch[14] Train-cross-entropy=0.000002
+2021-09-26 19:55:08,796 [INFO]  Epoch[14] Train-type_employer-accuracy=1.000000
+2021-09-26 19:55:08,796 [INFO]  Epoch[14] Time cost=20.279
+2021-09-26 19:55:08,873 [INFO]  Saved checkpoint to "type_employer\model-0014.params"
+2021-09-26 19:55:09,670 [INFO]  Epoch[14] Validation-cross-entropy=0.000002
+2021-09-26 19:55:09,671 [INFO]  Epoch[14] Validation-type_employer-accuracy=1.000000
+2021-09-26 19:55:09,671 [INFO]  
+========== done (340.14744448661804 s) fit model
