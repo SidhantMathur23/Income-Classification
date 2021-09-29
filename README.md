@@ -25,6 +25,10 @@ Exploratory data analysis was performed on the dataset, which revealed some patt
 * It was also uncovered that various categorical features of the dataset stored inconsistent data, specifically, the presence of "?" amongst other values. These values were replaced with np.nan values and treated using DataWig library.
 
 
+### Feature Encoding 
+After missing value imputation, categorical variables were converted into numerical variables using Catboost. A heatmap of the correlation matrix for the features is shown below to measure the multi-collinearity in the data.
+<img src=""
+
 ## Project Setup
 The project contains several external libraries which are not availible with the stndard anaconda download, these libraries are going to have be downloaded by the user. Navigate to the anaconda prompt and enter the following commands 
 ```python
