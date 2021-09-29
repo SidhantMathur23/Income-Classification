@@ -8,9 +8,8 @@ In this project, we will be implementing a use case of machine learning in the f
 
 ## Project Description
 #### About the Data
-The datast was taken from the 1994 census database and it consists of 32561 entries with 16 columns. The data stores various kinds of variables, 8 categorical(including the target variable) and 8 numeric variables. The target variable, labelled as "income" consists of 2 class labels, ">50K" and "<=50K". The dataset contains a class imbalance, so performany metrics like F1 score will be profoundly used as a basis to evaluate the estimator models
-
-<img src="https://github.com/SidhantMathur23/Income-Classification/blob/main/Income%20gifs%20and%20images/target.PNG" width="650" height="400" align="right">
+The datast was taken from the 1994 census database and it consists of 32561 entries with 16 columns. The data stores various kinds of variables, 8 categorical(including the target variable) and 8 numeric variables. <img src="https://github.com/SidhantMathur23/Income-Classification/blob/main/Income%20gifs%20and%20images/target.PNG" width="100" height="100" align="right">
+The target variable, labelled as "income" consists of 2 class labels, ">50K" and "<=50K". The dataset contains a class imbalance, so performany metrics like F1 score will be profoundly used as a basis to evaluate the estimator models
 
 ## Project Setup
 The project contains several external libraries which are not availible with the stndard anaconda download, these libraries are going to have be downloaded by the user. Navigate to the anaconda prompt and enter the following commands 
