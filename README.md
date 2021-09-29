@@ -1,6 +1,6 @@
 # Income Classification
 
-<img src="https://github.com/SidhantMathur23/Income-Classification/blob/main/Income%20gifs%20and%20images/Money%20gif.gif" width="650" height="400">
+<img src="https://github.com/SidhantMathur23/Income-Classification/blob/main/Other/Money%20gif.gif" width="650" height="400">
 <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" align="left">
 <img src="https://img.shields.io/badge/conda-342B029.svg?&style=for-the-badge&logo=anaconda&logoColor=white" align="left">
 <img src="https://img.shields.io/badge/Jupyter-F37626.svg?&style=for-the-badge&logo=Jupyter&logoColor=white" align="left">
@@ -18,7 +18,7 @@ In this project, we will be implementing a use case of machine learning in the f
 #### About the Data
 The dataset was taken from the 1994 census database and it consists of 32561 entries with 16 columns. The data stores various kinds of variables, 8 categorical(including the target variable) and 8 numeric variables. The target variable, labelled as "income" consists of 2 class labels, ">50K" and "<=50K". The dataset contains a class imbalance, so performance metrics like F1 score will be profoundly used as a basis to evaluate the estimator models.
 
-<img src="https://github.com/SidhantMathur23/Income-Classification/blob/main/Income%20gifs%20and%20images/target.PNG" width="450" height="250" align="center">
+<img src="https://github.com/SidhantMathur23/Income-Classification/blob/main/Other/target.PNG" width="450" height="250" align="center">
 
 
 #### Exploratory Data Analysis
@@ -27,15 +27,15 @@ Exploratory data analysis was performed on the dataset, which revealed some patt
 <img src="https://user-images.githubusercontent.com/79369289/135263343-a99e9985-cbee-4cb6-abe9-feef1f9167ec.png" width="350" height="350" align="center">
 
 * Dataset has a higher concentration of males than females, having a ratio of nearly 2:1. From these genders, nearly 30% of the males earn greater than 50K whereas only about 13% females enjoy an income greater than 50K. 
-<img src="https://github.com/SidhantMathur23/Income-Classification/blob/main/Income%20gifs%20and%20images/gender.PNG" width="300" height="220" align="left">
-<img src="https://github.com/SidhantMathur23/Income-Classification/blob/main/Income%20gifs%20and%20images/gender_dist.PNG" width="300" height="225" align="center">
+<img src="https://github.com/SidhantMathur23/Income-Classification/blob/main/Other/gender.PNG" width="300" height="220" align="left">
+<img src="https://github.com/SidhantMathur23/Income-Classification/blob/main/Other/gender_dist.PNG" width="300" height="225" align="center">
 
 * It was also uncovered that various categorical features of the dataset stored inconsistent data, specifically, the presence of "?" amongst other values. These values were replaced with np.nan values and treated using DataWig library.
 
 
 #### Feature Encoding 
 After missing value imputation, categorical variables were converted into numerical variables using Catboost. A heatmap of the correlation matrix for the features is shown below to measure the multi-collinearity in the data. Squares having dark purple denote the strength of correlation between the 2 columns.  
-<img src="https://github.com/SidhantMathur23/Income-Classification/blob/main/Income%20gifs%20and%20images/corr.PNG" width="500" height="430" align="center">
+<img src="https://github.com/SidhantMathur23/Income-Classification/blob/main/Other/corr.PNG" width="500" height="430" align="center">
 
 #### Feature Transformation 
 To measure which transformation works best for our data(standardization or normalization), I have performed the respective transformation and fitted some estimators on the data. The technique yielding higher performance metrics was selected and performed on the data. 
@@ -46,8 +46,8 @@ To reduce the dimentionality, I applied Recursive Feature Elimination with Cross
 #### Modelling and Hyperparameter Tuning 
 After data preprocessing, I fitted various kinds of estimators on the preprocessed data using scikit-learn and pandas. The algorithms which yielded the best results were passed on to the hyperparameter tuning stage, rest were filtered out. Estimators were evaluated based on Precision, Recall and F1 Score.
 <br>
-<img src="https://github.com/SidhantMathur23/Income-Classification/blob/main/Income%20gifs%20and%20images/ROC.PNG" width="400" height="250" align="center">
-<img src="https://github.com/SidhantMathur23/Income-Classification/blob/main/Income%20gifs%20and%20images/PR_ROC.PNG" width="400" height="250" align="center">
+<img src="https://github.com/SidhantMathur23/Income-Classification/blob/main/Other/ROC.PNG" width="400" height="250" align="center">
+<img src="https://github.com/SidhantMathur23/Income-Classification/blob/main/Other/PR_ROC.PNG" width="400" height="250" align="center">
 
 * In the paramter tuning stage, I used techniques like RandomizedSearchCV and GridSearchCV to find optimal hyperparamters for the estimator models.
 
