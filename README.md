@@ -38,8 +38,8 @@ To reduce the dimentionality, I applied Recursive Feature Elimination with Cross
 #### Modelling and Hyperparameter Tuning 
 After data preprocessing, I fitted various kinds of estimators on the preprocessed data using scikit-learn and pandas. The algorithms which yielded the best results were passed on to the hyperparameter tuning stage, rest were filtered out. Estimators were evaluated based on Precision, Recall and F1 Score.
 <br>
-<img src="https://github.com/SidhantMathur23/Income-Classification/blob/main/Income%20gifs%20and%20images/ROC.PNG" width="450" height="300" align="center">
-<img src="https://github.com/SidhantMathur23/Income-Classification/blob/main/Income%20gifs%20and%20images/PR_ROC.PNG" width="450" height="300" align="center">
+<img src="https://github.com/SidhantMathur23/Income-Classification/blob/main/Income%20gifs%20and%20images/ROC.PNG" width="400" height="250" align="center">
+<img src="https://github.com/SidhantMathur23/Income-Classification/blob/main/Income%20gifs%20and%20images/PR_ROC.PNG" width="400" height="250" align="center">
 
 * In the paramter tuning stage, I used techniques like RandomizedSearchCV and GridSearchCV to find optimal hyperparamters for the estimator models.
 
