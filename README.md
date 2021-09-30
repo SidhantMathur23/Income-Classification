@@ -16,7 +16,7 @@ In this project, we will be implementing a use case of machine learning in the f
 
 ## Project Description
 #### About the Data
-The dataset was taken from the 1994 census database and it consists of 32561 entries with 16 columns. The data stores various kinds of variables, 8 categorical(including the target variable) and 8 numeric variables. The target variable, labelled as "income" consists of 2 class labels, ">50K" and "<=50K". The dataset contains a class imbalance, so performance metrics like F1 score will be profoundly used as a basis to evaluate the estimator models.
+The dataset was taken from the UCI Machine Learning Repository, which extracted the data from the 1994 census database, consisting of 32561 entries with 16 columns. The data stores various kinds of variables, 8 categorical(including the target variable) and 8 numeric variables. The target variable, labelled as "income" consists of 2 class labels, ">50K" and "<=50K". The dataset contains a class imbalance, so performance metrics like F1 score will be profoundly used as a basis to evaluate the estimator models.
 
 <img src="https://github.com/SidhantMathur23/Income-Classification/blob/main/Other/target.PNG" width="450" height="250" align="center">
 
@@ -64,3 +64,9 @@ pip install warnings
 
 <h3 align="left">Languages and Tools:</h3>
 <p align="left"> <a href="https://www.python.org" target="_blank"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" alt="python" width="40" height="40"/> </a> <a href="https://scikit-learn.org/" target="_blank"> <img src="https://upload.wikimedia.org/wikipedia/commons/0/05/Scikit_learn_logo_small.svg" alt="scikit_learn" width="40" height="40"/> </a> </p>
+
+### Credits And Resources
+* Dataset was borrowed from https://archive.ics.uci.edu/ml/datasets/Adult?ref=datanews.io
+* Kaggle: https://www.kaggle.com/uciml/adult-census-income
+* http://jmcauley.ucsd.edu/cse190/projects/sp15/024.pdf
+* https://towardsdatascience.com/logistic-regression-classifier-on-census-income-data-e1dbef0b5738
