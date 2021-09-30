@@ -54,7 +54,7 @@ After data preprocessing, I fitted various kinds of estimators on the preprocess
 #### Conclusion
 From the above stages, I have found Logistic Regression to be most suitable for the dataset, having `Precision` of 0.643, `Recall` of 0.725 and `F1 Score` of 0.682.
 
-## Enviornment Setup
+## Environment Setup
 The project contains several external libraries which are not availible with the stndard anaconda download, these libraries are going to have be downloaded by the user. Navigate to the anaconda prompt and enter the following commands 
 ```python
 pip install datawig
